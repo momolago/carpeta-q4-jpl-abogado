@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Carpeta JPL · A.G. S.A. c/ Santander · Viña del Mar</title>
+<title>C-1 · Seguro de Garantía · A.G. S.A. c/ Santander · JPL Viña</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600;700&display=swap');
 :root{
@@ -19,18 +19,12 @@ h1,h2,h3{font-family:Fraunces,Georgia,serif;color:var(--ink);margin:0}
 a{color:var(--azul)}
 a.ley{color:#8f4021;font-weight:650;border-bottom:1px dashed #dfae91;text-decoration:none}
 a.ley:hover{background:#fbeade}
-.top{position:sticky;top:0;z-index:30;background:rgba(247,242,234,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
-.top .inner{max-width:980px;margin:0 auto;padding:8px 14px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.top a{padding:8px 12px;border-radius:999px;text-decoration:none;font-size:13px;font-weight:600;color:var(--ink-2)}
-.top a:hover{background:#efe6d8}
-.top a.now{background:#191310;color:#fff}
-.top .dl{margin-left:auto;background:var(--terra);color:#fff!important}
-.wrap{max-width:980px;margin:0 auto;padding:22px 16px 90px}
-.tag{display:inline-block;border-radius:999px;background:#f1ece5;border:1px solid #ddd2c4;padding:4px 11px;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#6e6257;margin-bottom:10px}
-.cover,.sec,.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px;margin:14px 0}
-.cover h1{font-size:clamp(26px,5vw,40px);line-height:1.1;margin:8px 0 10px}
-.monto{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0 8px}
-.monto .box{flex:1;min-width:140px;background:#191310;color:#fffdf9;border-radius:14px;padding:16px 18px}
+.wrap{max-width:920px;margin:0 auto;padding:28px 18px 100px}
+.tag{display:inline-block;border-radius:999px;background:#f1ece5;border:1px solid #ddd2c4;padding:4px 12px;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#6e6257;margin-bottom:12px}
+.cover,.sec{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:26px;margin:16px 0}
+.cover h1{font-size:clamp(28px,5vw,38px);line-height:1.12;margin:6px 0 14px}
+.monto{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 10px}
+.monto .box{flex:1;min-width:150px;background:#191310;color:#fffdf9;border-radius:14px;padding:16px 18px}
 .monto .box.sec{background:#fff;color:var(--ink);border:1px solid var(--line)}
 .monto .box .lbl{font-size:10px;letter-spacing:.12em;text-transform:uppercase;opacity:.7;margin-bottom:4px}
 .monto .box .num{font-family:Fraunces,Georgia,serif;font-size:clamp(22px,4vw,28px);font-weight:650;line-height:1.15}
@@ -42,278 +36,175 @@ a.ley:hover{background:#fbeade}
 .rojo .fecha-r{font-weight:700;color:var(--rojo);margin-right:6px}
 .tl{position:relative;margin:18px 0 8px;padding-left:28px}
 .tl::before{content:"";position:absolute;left:9px;top:6px;bottom:6px;width:2px;background:linear-gradient(#e4d9c9,#b4552d,#e4d9c9);border-radius:2px}
-.tl .ev{position:relative;padding:0 0 18px 0}
+.tl .ev{position:relative;padding:0 0 20px 0}
 .tl .ev:last-child{padding-bottom:0}
 .tl .ev::before{content:"";position:absolute;left:-23px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--terra);border:3px solid var(--paper);box-shadow:0 0 0 1px var(--line)}
-.tl .ev .fecha{font-size:12px;font-weight:700;color:var(--terra);letter-spacing:.02em;margin-bottom:2px}
+.tl .ev .fecha{font-size:12px;font-weight:700;color:var(--terra);letter-spacing:.02em;margin-bottom:3px}
 .tl .ev .txt{font-size:14.5px;color:var(--ink-2)}
 .tl .ev.clave::before{background:#191310;width:14px;height:14px;left:-24px;top:5px}
 .tl .ev.choque::before{background:var(--rojo);width:14px;height:14px;left:-24px;top:5px;box-shadow:0 0 0 3px var(--rojo-bg)}
 .tl .ev.choque .fecha{color:var(--rojo)}
 .tl .ev.choque .txt{font-weight:500}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:14px 0}
-.card{margin:0;transition:box-shadow .15s,transform .15s;text-decoration:none;color:inherit;display:block}
-.card:hover{box-shadow:0 8px 24px rgba(25,19,16,.08);transform:translateY(-2px)}
-.card .id{font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--terra)}
-.card h2{font-size:18px;margin:6px 0 6px}
-.card .cifra{font-family:Fraunces,Georgia,serif;font-size:20px;font-weight:650;color:var(--ink);margin-top:8px}
-table{width:100%;border-collapse:collapse;font-size:13.5px;background:#fff;margin:10px 0}
-th,td{text-align:left;padding:9px 10px;border-bottom:1px solid #f2ebde;vertical-align:top}
-th{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-4)}
-.aviso{border-left:4px solid var(--terra);background:var(--amber);padding:12px 14px;margin-top:14px;border-radius:0 10px 10px 0}
-.ok{border-left:4px solid var(--olive);background:var(--olive-bg);padding:12px 14px;margin-top:14px;border-radius:0 10px 10px 0}
 .meta{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
 .meta b{display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-4);margin-bottom:2px}
-.propuesta{background:#191310;color:#fffdf9;border-radius:16px;padding:20px 22px;margin:14px 0}
-.propuesta h2{color:#fffdf9;font-size:18px;margin:0 0 12px}
+.propuesta{background:#191310;color:#fffdf9;border-radius:16px;padding:22px 24px;margin:16px 0}
+.propuesta h2{color:#fffdf9;font-size:18px;margin:0 0 14px}
 .propuesta ol{margin:0;padding-left:20px}
-.propuesta li{margin:8px 0;font-size:14.5px}
-.propuesta .nota{margin-top:14px;font-size:13px;opacity:.75;border-top:1px solid rgba(255,253,249,.2);padding-top:12px}
-h2{font-size:20px;margin:0 0 12px}
-footer{margin-top:28px;font-size:12px;color:var(--ink-4);text-align:center}
-.back{display:inline-block;margin-top:14px;font-size:13px;font-weight:600}
+.propuesta li{margin:9px 0;font-size:14.5px}
+.propuesta .nota{margin-top:16px;font-size:13px;opacity:.75;border-top:1px solid rgba(255,253,249,.2);padding-top:12px}
+h2{font-size:20px;margin:0 0 14px}
+.aviso{border-left:4px solid var(--terra);background:var(--amber);padding:12px 14px;margin-top:14px;border-radius:0 10px 10px 0}
+.ok{border-left:4px solid var(--olive);background:var(--olive-bg);padding:12px 14px;margin-top:14px;border-radius:0 10px 10px 0}
+table{width:100%;border-collapse:collapse;font-size:13.5px;background:#fff;margin:12px 0}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid #f2ebde;vertical-align:top}
+th{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-4)}
+.comm-card{border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0;background:#fff}
+.comm-card .hdr{font-size:12px;font-weight:700;color:var(--terra);margin-bottom:4px}
+.comm-card .body{font-size:14px}
+.flag{display:inline-block;background:var(--rojo-bg);color:var(--rojo);border:1px solid var(--rojo-borde);border-radius:6px;padding:2px 8px;font-size:11px;font-weight:700;margin-left:6px}
+footer{margin-top:36px;font-size:12px;color:var(--ink-4);text-align:center;padding-bottom:20px}
+.btn-print{position:fixed;bottom:22px;right:22px;background:var(--terra);color:#fff;border:none;border-radius:999px;padding:12px 20px;font-weight:700;font-size:13px;cursor:pointer;box-shadow:0 4px 16px rgba(180,85,45,.35);z-index:40}
+@media print{
+  .btn-print{display:none}
+  body{background:#fff}
+  .cover,.sec,.rojo,.propuesta{break-inside:avoid;box-shadow:none}
+  .wrap{padding:0;max-width:100%}
+}
 @media(max-width:640px){.meta{grid-template-columns:1fr}.monto .box{min-width:100%}}
-@media print{.top{display:none}body{background:#fff}.sec,.cover,.card,.rojo,.propuesta{break-inside:avoid}}
 </style>
 </head>
 <body>
-<nav class="top" id="indice">
-  <div class="inner">
-    <a href="#indice" class="now">Índice</a>
-    <a href="#c1">C-1 Garantía</a>
-    <a href="#c2">C-2 Contribuciones</a>
-    <a href="#c4">C-4 Seguro 471,88 UF</a>
-    <a class="dl" href="#" onclick="descargar();return false">Descargar HTML</a>
-  </div>
-</nav>
+<button class="btn-print" onclick="window.print()">Exportar PDF</button>
 <div class="wrap">
-  <span class="tag">Carpeta para el abogado · JPL Viña del Mar · 31-08-2026</span>
-  <div class="cover">
-    <h1>Tres causas.<br>A.G. S.A. c/ Santander.</h1>
-    <p>Querellante: A.G. Sociedad Anónima · RUT 77.203.320-6 · Giacomo Lagomarsino Soto 13.191.349-4</p>
-    <p>Querellado: Banco Santander-Chile · RUT <b>97.036.000-K</b> · Representante <b>Andrés Trautmann Buc</b> (no Román Blanco).</p>
-    <p style="margin-top:12px;color:var(--ink-3)">Orden de cada causa: <b>Historia</b> (con las comunicaciones) → <b>Choques en rojo</b> → <b>Propuesta</b> (texto listo) → <b>Pruebas</b>.</p>
-  </div>
-  <div class="grid">
-    <a class="card" href="#c1"><div class="id">C-1</div><h2>Seguros de garantía</h2><p>Cargos «Pago Seguro de Garantía» sin póliza ni mandato.</p><div class="cifra">$3.174.352</div></a>
-    <a class="card" href="#c2"><div class="id">C-2</div><h2>Sobretasa y contribuciones</h2><p>Cobros TGR / Gallardo / débito sobretasa.</p><div class="cifra">Devolver cargos</div></a>
-    <a class="card" href="#c4"><div class="id">C-4 · más pruebas</div><h2>Restitución del seguro</h2><p>Prima leaseback 598948. Solo el seguro.</p><div class="cifra">471,88 UF</div></a>
-  </div>
-  <div class="sec">
-    <h2>Mapa rápido</h2>
-    <table>
-      <thead><tr><th>Causa</th><th>Qué se pide</th><th>No va aquí</th></tr></thead>
-      <tbody>
-        <tr><td><a href="#c1">C-1</a></td><td>Devolver <b>$3.174.352</b></td><td>C-2, C-4</td></tr>
-        <tr><td><a href="#c2">C-2</a></td><td>Devolver sobretasa / contribuciones</td><td>C-1, C-4</td></tr>
-        <tr><td><a href="#c4">C-4</a></td><td>Restituir <b>471,88 UF</b></td><td>C-1, C-2</td></tr>
-      </tbody>
-    </table>
-    <div class="ok">C-3 (prepago 590371) fuera de este paquete. <b>590371 ≠ 598948</b>. La cuarta pista (certificado / bloqueo mayo 2023) queda congelada.</div>
-  </div>
-</div>
-<div class="wrap" id="c1">
-  <span class="tag">C-1 · seguros de garantía</span>
+
+  <!-- 1. PRIMERA HOJA: RESUMEN EJECUTIVO -->
+  <span class="tag">C-1 · Seguro de Garantía · JPL Viña del Mar · 31-08-2026</span>
   <div class="cover">
     <h1>Seguros de garantía</h1>
-    <p>El banco debitó en cuenta corriente bajo la glosa «Pago Seguro de Garantía» sin exhibir póliza, mandato ni autorización del cliente.</p>
+    <p style="font-size:16px;max-width:640px">El Banco Santander-Chile debitó reiteradamente en cuenta corriente de A.G. Sociedad Anónima la glosa «Pago Seguro de Garantía» sin exhibir póliza, mandato ni autorización del cliente.</p>
     <div class="monto">
-      <div class="box"><div class="lbl">Pedido</div><div class="num">$3.174.352</div></div>
-      <div class="box sec"><div class="lbl">Plazo art. 26</div><div class="num" style="font-size:18px">Hasta 04/10/2026</div></div>
+      <div class="box"><div class="lbl">Se cobra / se pide</div><div class="num">$3.174.352</div></div>
+      <div class="box sec"><div class="lbl">Plazo art. 26 Ley 19.496</div><div class="num" style="font-size:18px">Hasta 04-10-2026</div></div>
     </div>
     <div class="meta">
+      <div><b>Querellante</b> A.G. Sociedad Anónima · RUT 77.203.320-6 · Giacomo Lagomarsino Soto 13.191.349-4</div>
+      <div><b>Querellado</b> Banco Santander-Chile · RUT 97.036.000-K · Representante Andrés Trautmann Buc</div>
       <div><b>Último cargo</b> 04-10-2024 · dos cargos $113.743 el mismo día</div>
-      <div><b>Norma</b> <a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">Ley 19.496</a> arts. 17 B / 50 · art. 26</div>
+      <div><b>Norma base</b> <a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">Ley 19.496</a> arts. 17 B, 50 y 26</div>
     </div>
   </div>
+
+  <!-- 2. HISTORIA NARRADA CON DETALLE E HIPERVÍNCULOS -->
   <div class="sec">
-    <h2>1. Historia</h2>
-    <p>Las comunicaciones con el banco y con la CMF van en esta misma línea. No hay sección aparte.</p>
+    <h2>2. Historia narrada</h2>
+    <p>Entre 2022 y 2024 el banco cargó en las cartolas de A.G. S.A. montos reiterados bajo la glosa «Pago Seguro de Garantía». El cliente nunca recibió póliza, certificado de cobertura coincidente ni mandato que autorizara el débito. La suma consolidada de los cargos que se reclaman asciende a <b>$3.174.352</b>.</p>
+    <p>El 20-03-2024 aparece un cargo de $4.223.618 seguido de reversa «Devolucion Departamento Seguros». Esa cifra <b>no forma parte</b> de la pretensión actual.</p>
+    <p>En mayo de 2024 se interpuso el reclamo CMF N° 2451204. El banco respondió con carta N° 65331. Quedó formalizado el cobro sin título. El 04-10-2024 se registraron dos cargos idénticos de $113.743 el mismo día: ancla del plazo del artículo 26 de la Ley 19.496. El 18-08-2025 se ingresó la querella con individualización correcta del representante legal (Trautmann Buc).</p>
     <div class="tl">
-      <div class="ev"><div class="fecha">2022 – 2023</div><div class="txt">Cargos reiterados en cartolas 244, 253 y 265 bajo la glosa «Pago Seguro de Garantía».</div></div>
-      <div class="ev"><div class="fecha">20-03-2024</div><div class="txt">Cargo $4.223.618 y reversa «Devolucion Departamento Seguros». <b>No se pide</b> esta cifra.</div></div>
-      <div class="ev choque"><div class="fecha">Mayo 2024 · se hablaron</div><div class="txt">Reclamo CMF 2451204. El banco responde con carta 65331. Ahí quedó planteado el cobro sin póliza.</div></div>
-      <div class="ev choque clave"><div class="fecha">04-10-2024 · choque</div><div class="txt">Dos cargos de $113.743 el mismo día. Ancla del plazo del art. 26. Sigue sin póliza ni mandato.</div></div>
-      <div class="ev"><div class="fecha">18-08-2025</div><div class="txt">Querella ingresada (individualización Trautmann).</div></div>
+      <div class="ev"><div class="fecha">2022 – 2023</div><div class="txt">Cargos reiterados en cartolas 244, 253 y 265 bajo glosa «Pago Seguro de Garantía».</div></div>
+      <div class="ev"><div class="fecha">20-03-2024</div><div class="txt">Cargo $4.223.618 + reversa «Devolucion Departamento Seguros». No se pide esta cifra.</div></div>
+      <div class="ev choque"><div class="fecha">Mayo 2024 · se hablaron</div><div class="txt">Reclamo CMF 2451204. Banco responde carta 65331. Quedó planteado el cobro sin póliza.</div></div>
+      <div class="ev choque clave"><div class="fecha">04-10-2024 · choque</div><div class="txt">Dos cargos de $113.743 el mismo día. Ancla del plazo art. 26. Sigue sin póliza ni mandato.</div></div>
+      <div class="ev"><div class="fecha">18-08-2025</div><div class="txt">Querella ingresada (individualización Trautmann Buc · RUT 97.036.000-K).</div></div>
     </div>
-    <div class="aviso">No mezclar con <a href="#c4">C-4</a> (471,88 UF del leaseback 598948).</div>
+    <div class="aviso">No mezclar con C-4 (prima leaseback 598948 · 471,88 UF). Causa distinta, operación distinta.</div>
   </div>
-  <div class="rojo">
-    <h2>Lo que se integra · choques y comunicaciones</h2>
-    <ul>
-      <li><span class="fecha-r">Mayo 2024</span> Reclamo CMF 2451204 + carta banco 65331. Se planteó el cobro sin título.</li>
-      <li><span class="fecha-r">04-10-2024</span> Dos cargos $113.743 el mismo día. Último hecho para el plazo del art. 26.</li>
-      <li><span class="fecha-r">Cartolas 244 / 253 / 265 / 277</span> La glosa «Pago Seguro de Garantía» sin póliza ni mandato en el archivo del cliente.</li>
-      <li><span class="fecha-r">Póliza 07570481 vs certificado</span> Cotejo: asegurado, monto y prima no calzan.</li>
-    </ul>
-  </div>
-  <div class="propuesta">
-    <h2>Propuesta para el abogado</h2>
-    <ol>
-      <li>Declarar indebidos los cargos bajo glosa «Pago Seguro de Garantía».</li>
-      <li>Ordenar la devolución de <b>$3.174.352</b>, con reajuste e intereses.</li>
-      <li>Oficiar al banco la póliza y el mandato, si sostiene que el cobro era legítimo.</li>
-    </ol>
-    <div class="nota">Texto listo para el libelo. Individualización: Trautmann Buc · RUT 97.036.000-K.</div>
-  </div>
+
+  <!-- 3. MISMA HISTORIA CON GRÁFICOS / PROTOTIPOS Y RED FLAGS -->
   <div class="sec">
-    <h2>2. Pruebas</h2>
+    <h2>3. Comunicaciones y red flags</h2>
+    <p>La misma secuencia vista a través de las piezas de comunicación y los puntos de choque documentados.</p>
+
+    <div class="comm-card">
+      <div class="hdr">Cartolas 244 · 253 · 265 · 277</div>
+      <div class="body">Glosa reiterada «Pago Seguro de Garantía». Suma consolidada $3.174.352. Sin póliza ni mandato en el archivo del cliente. <span class="flag">RED FLAG</span></div>
+    </div>
+    <div class="comm-card">
+      <div class="hdr">20-03-2024 · Cargo + reversa</div>
+      <div class="body">$4.223.618 cargado y luego devuelto por «Departamento Seguros». Demuestra que el banco podía revertir. No se reclama este monto.</div>
+    </div>
+    <div class="comm-card">
+      <div class="hdr">Mayo 2024 · CMF 2451204 + Carta banco 65331</div>
+      <div class="body">Reclamo formal ante la CMF. Respuesta del banco. Quedó por escrito el cobro sin título. <span class="flag">RED FLAG</span></div>
+    </div>
+    <div class="comm-card">
+      <div class="hdr">04-10-2024 · Doble cargo</div>
+      <div class="body">Dos débitos de $113.743 el mismo día. Último hecho generador para el cómputo del art. 26. <span class="flag">RED FLAG · PLAZO</span></div>
+    </div>
+    <div class="comm-card">
+      <div class="hdr">Póliza 07570481 vs certificado de cobertura</div>
+      <div class="body">Cotejo: asegurado, monto y prima no calzan. <span class="flag">RED FLAG</span></div>
+    </div>
+
+    <div class="rojo">
+      <h2>Choques integrados</h2>
+      <ul>
+        <li><span class="fecha-r">Mayo 2024</span> Reclamo CMF 2451204 + carta banco 65331. Cobro sin título planteado.</li>
+        <li><span class="fecha-r">04-10-2024</span> Dos cargos $113.743. Ancla del plazo art. 26.</li>
+        <li><span class="fecha-r">Cartolas</span> Glosa «Pago Seguro de Garantía» sin póliza ni mandato.</li>
+        <li><span class="fecha-r">Póliza vs certificado</span> Datos no calzan.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 4. MARCO LEGAL APOYADO -->
+  <div class="sec">
+    <h2>4. Marco legal apoyado</h2>
     <table>
-      <thead><tr><th>#</th><th>Pieza</th><th>Qué acredita</th></tr></thead>
+      <thead><tr><th>Norma</th><th>Aplicación al caso</th></tr></thead>
       <tbody>
-        <tr><td>1</td><td>Cartolas 244, 253, 265, 277</td><td>Cargos y suma $3.174.352</td></tr>
-        <tr><td>2</td><td>Detalle 04-10-2024 (duplicado)</td><td>Último cargo · plazo art. 26</td></tr>
-        <tr><td>3</td><td>CMF 2451204 + carta 65331</td><td>Reclamo y respuesta del banco</td></tr>
-        <tr><td>4</td><td>Póliza 07570481 vs certificado de cobertura</td><td>Cotejo: no calzan</td></tr>
+        <tr>
+          <td><a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">Ley 19.496 art. 17 B</a></td>
+          <td>Derecho del consumidor a información veraz y oportuna sobre productos y servicios. El banco cobró un «seguro de garantía» sin entregar la póliza ni el mandato.</td>
+        </tr>
+        <tr>
+          <td><a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">Ley 19.496 art. 50</a></td>
+          <td>Acciones por infracción a la ley del consumidor. Fundamento de la pretensión de nulidad de los cargos y restitución.</td>
+        </tr>
+        <tr>
+          <td><a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">Ley 19.496 art. 26</a></td>
+          <td>Plazo de prescripción de las acciones. Último cargo 04-10-2024 → plazo corre hasta 04-10-2026.</td>
+        </tr>
+        <tr>
+          <td>Principio de buena fe contractual</td>
+          <td>Cobro reiterado sin título ni documentación entregada al cliente configura incumplimiento del deber de transparencia bancaria.</td>
+        </tr>
       </tbody>
     </table>
-    <a class="back" href="#indice">↑ Volver al índice</a>
+    <div class="ok">No se invoca fraude ni estafa. Solo cobros indebidos por falta de título (póliza / mandato).</div>
   </div>
-</div>
-<div class="wrap" id="c2">
-  <span class="tag">C-2 · sobretasa y contribuciones</span>
-  <div class="cover">
-    <h1>Sobretasa y contribuciones</h1>
-    <p>El banco paga a Tesorería como contribuyente del rol y después cobra al cliente.</p>
-    <div class="monto">
-      <div class="box"><div class="lbl">Débito 13-05-2026</div><div class="num">$3.411.976</div></div>
-      <div class="box sec"><div class="lbl">Exigencia Gallardo</div><div class="num" style="font-size:18px">$2.054.790</div></div>
-    </div>
-    <div class="meta">
-      <div><b>Norma</b> Arts. 7 bis y 25 DFL 1/1998 — no art. 7 derogado</div>
-      <div><b>Rol TGR</b> 034-00139-010 · contribuyente: el banco</div>
-    </div>
-  </div>
-  <div class="sec">
-    <h2>1. Historia</h2>
-    <p>Las comunicaciones (Gallardo, Zapata, F21) van en esta misma línea.</p>
-    <div class="tl">
-      <div class="ev choque"><div class="fecha">30-07-2024 · se hablaron</div><div class="txt">Gallardo exige $2.054.790 por la operación 590371.</div></div>
-      <div class="ev choque"><div class="fecha">26-09-2024 · se hablaron</div><div class="txt">Zapata explica por escrito el mecanismo: el banco paga a TGR y cobra al cliente.</div></div>
-      <div class="ev"><div class="fecha">22-11-2024 · 30-04 · 27-06-2025</div><div class="txt">A.G. presenta F21 a Tesorería (10414415, 11784847, 11784849).</div></div>
-      <div class="ev choque clave"><div class="fecha">13-05-2026 · choque</div><div class="txt">Débito $3.411.976 «Sobretasa Leasing N° 119».</div></div>
-    </div>
-  </div>
-  <div class="rojo">
-    <h2>Lo que se integra · choques y comunicaciones</h2>
-    <ul>
-      <li><span class="fecha-r">30-07-2024</span> Mail Gallardo: exige $2.054.790.</li>
-      <li><span class="fecha-r">26-09-2024</span> Carta Zapata: el banco admite que paga a TGR y traslada el cobro al cliente.</li>
-      <li><span class="fecha-r">F21</span> 10414415, 11784847, 11784849 — A.G. pagó a Tesorería.</li>
-      <li><span class="fecha-r">13-05-2026</span> Débito $3.411.976 «Sobretasa Leasing N° 119».</li>
-      <li><span class="fecha-r">Cert. TGR rol 034-00139-010</span> Contribuyente: el banco, no el cliente.</li>
-    </ul>
-  </div>
+
+  <!-- 5. PROPUESTA DE ESCRITO -->
   <div class="propuesta">
-    <h2>Propuesta para el abogado</h2>
+    <h2>5. Propuesta de escrito (texto listo)</h2>
     <ol>
-      <li>Declarar indebido el traslado al cliente de contribuciones / sobretasa que corresponden al banco como contribuyente del rol.</li>
-      <li>Ordenar la devolución de lo cobrado (Gallardo + débito + lo pagado de más vía F21), con reajuste.</li>
+      <li>Declarar indebidos los cargos realizados bajo la glosa «Pago Seguro de Garantía» en las cartolas de A.G. Sociedad Anónima.</li>
+      <li>Ordenar la devolución de la suma de <b>$3.174.352</b>, con los reajustes e intereses que correspondan desde cada cargo hasta el pago efectivo.</li>
+      <li>Oficiar al Banco Santander-Chile para que, en el evento de sostener la legitimidad del cobro, acompañe la póliza correspondiente y el mandato que autorice el débito, bajo apercibimiento de tener por no justificado el cargo.</li>
     </ol>
-    <div class="nota">Citar arts. 7 bis y 25 DFL 1/1998. No citar art. 7 derogado de la Ley 17.235.</div>
+    <div class="nota">Individualización del querellado: Banco Santander-Chile, RUT 97.036.000-K, representado por Andrés Trautmann Buc. No usar nombre de representante anterior.</div>
   </div>
+
+  <!-- 6. COTIZACIÓN -->
   <div class="sec">
-    <h2>2. Pruebas</h2>
+    <h2>6. Cotización</h2>
+    <p>Honorarios y gastos del presente paquete C-1 se coordinan directamente con el abogado receptor. No se incluye cifra en esta carpeta para evitar fijar montos sin acuerdo previo.</p>
     <table>
-      <thead><tr><th>#</th><th>Pieza</th><th>Qué acredita</th></tr></thead>
+      <thead><tr><th>Ítem</th><th>Estado</th></tr></thead>
       <tbody>
-        <tr><td>A</td><td>Carta Zapata 26-09-2024</td><td>Mecanismo de cobro al cliente</td></tr>
-        <tr><td>C</td><td>Mail Gallardo 30-07-2024</td><td>Exigencia $2.054.790</td></tr>
-        <tr><td>D</td><td>Captura 13-05-2026</td><td>Débito $3.411.976</td></tr>
-        <tr><td>F–H</td><td>F21 10414415, 11784847, 11784849</td><td>Pago A.G. a Tesorería</td></tr>
-        <tr><td>I</td><td>Certificado TGR rol 034-00139-010</td><td>Contribuyente: el banco</td></tr>
+        <tr><td>Preparación de carpeta y antecedentes C-1</td><td>Incluido en este HTML</td></tr>
+        <tr><td>Redacción de libelo / presentación</td><td>Texto base entregado en sección 5</td></tr>
+        <tr><td>Honorarios profesionales del abogado</td><td>Por cotizar / acuerdo</td></tr>
+        <tr><td>Gastos de notificación y gestión</td><td>Por definir según tribunal</td></tr>
       </tbody>
     </table>
-    <a class="back" href="#indice">↑ Volver al índice</a>
+    <div class="aviso">Cualquier cifra de honorarios debe ser acordada por escrito antes de iniciar gestiones judiciales.</div>
   </div>
+
+  <footer>
+    Carpeta C-1 · Seguro de Garantía · A.G. S.A. c/ Banco Santander-Chile · JPL Viña del Mar<br>
+    Generado 31-08-2026 · Exportable a PDF vía botón o Ctrl/Cmd+P · Sin envío a terceros
+  </footer>
 </div>
-<div class="wrap" id="c4">
-  <span class="tag">C-4 · restitución del seguro · 471,88 UF · la de más pruebas</span>
-  <div class="cover">
-    <h1>Restitución del seguro · 471,88 UF</h1>
-    <p>Leaseback 598948 · Pedro Montt · Escrituras Fischer Rep. 19.179 / 19.180. <b>Solo la prima / provisión de seguro.</b></p>
-    <div class="monto">
-      <div class="box"><div class="lbl">Pedido</div><div class="num">471,88 UF</div></div>
-      <div class="box sec"><div class="lbl">Operación</div><div class="num" style="font-size:18px">598948</div></div>
-    </div>
-    <div class="meta">
-      <div><b>Querellado</b> 97.036.000-K · Trautmann Buc<br><span style="color:var(--rojo)">No Blanco · no RUT 97.003.000-0</span></div>
-      <div><b>Norma</b> <a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">Ley 19.496</a> arts. 17 B / 17 C / 50</div>
-    </div>
-  </div>
-  <div class="sec">
-    <h2>1. Historia</h2>
-    <p>En el leaseback 598948 el banco cobró un seguro (prima / provisión) por <b>471,88 UF</b>. Se pide la restitución de ese cobro. Las comunicaciones del bloque (CMF, escritos) van en esta misma línea.</p>
-    <div class="tl">
-      <div class="ev clave"><div class="fecha">29-12-2022</div><div class="txt">Escrituras Fischer: arrendamiento Rep. 19179 y compraventa Rep. 19180. Operación de sistema <b>598948</b>.</div></div>
-      <div class="ev"><div class="fecha">17 y 18-01-2023</div><div class="txt">Certificaciones de las escrituras.</div></div>
-      <div class="ev choque"><div class="fecha">2023 · se fijó el cobro</div><div class="txt">Hoja resumen / documentación de seguros de la operación fija la cifra <b>471,88 UF</b>.</div></div>
-      <div class="ev choque"><div class="fecha">CMF 2454012 · se hablaron</div><div class="txt">Reclamo administrativo previo del bloque 598948.</div></div>
-      <div class="ev choque clave"><div class="fecha">Escrito Q4 · choque</div><div class="txt">Borrador de querella existe. Hay que corregir individualización: Trautmann · RUT 97.036.000-K (no Blanco, no 97.003.000-0).</div></div>
-    </div>
-    <div class="aviso">
-      No es <a href="#c1">C-1</a> (garantía en cartola $3.174.352).<br>
-      El Detalle de Prepago del 23-05-2023 de la 598948 no es el objeto de esta carpeta.
-    </div>
-  </div>
-  <div class="rojo">
-    <h2>Lo que se integra · choques y comunicaciones</h2>
-    <ul>
-      <li><span class="fecha-r">29-12-2022</span> Escrituras 19179 / 19180 · título del leaseback 598948.</li>
-      <li><span class="fecha-r">Hoja resumen / seguro</span> Cifra ancla: <b>471,88 UF</b> de prima / provisión.</li>
-      <li><span class="fecha-r">CMF 2454012</span> Reclamo previo del mismo bloque.</li>
-      <li><span class="fecha-r">Escrito Q4</span> Corregir RUT y representante antes de insistir.</li>
-      <li><span class="fecha-r">Lo que NO se pide</span> Valor de término UF 35.128,77 ni condonación de rentas. Eso no es este caso.</li>
-    </ul>
-  </div>
-  <div class="propuesta">
-    <h2>Propuesta para el abogado</h2>
-    <ol>
-      <li>Declarar el cobro de la prima / provisión de seguro de la 598948 (<b>471,88 UF</b>) sin título suficiente frente al cliente.</li>
-      <li>Ordenar la <b>restitución de 471,88 UF</b> (o su equivalente en pesos a la fecha de cargo), con reajuste e intereses.</li>
-      <li>Oficiar al banco la póliza completa de ese seguro, si sostiene que el cobro era legítimo.</li>
-    </ol>
-    <div class="nota">Individualización fija: Andrés Trautmann Buc · RUT 97.036.000-K. No Román Blanco. No RUT 97.003.000-0.</div>
-  </div>
-  <div class="sec">
-    <h2>2. Pruebas (catálogo)</h2>
-    <table>
-      <thead><tr><th>#</th><th>Pieza</th><th>Qué acredita</th><th>Estado</th></tr></thead>
-      <tbody>
-        <tr><td>1</td><td>Escritura arrendamiento Rep. 19179-2022</td><td>Título leaseback 598948</td><td>Leída</td></tr>
-        <tr><td>2</td><td>Escritura compraventa Rep. 19180-2022</td><td>Precio UF 32.124</td><td>Leída</td></tr>
-        <tr><td>3</td><td>Hoja resumen / seguro 598948</td><td><b>471,88 UF</b></td><td>Ancla</td></tr>
-        <tr><td>4</td><td>Cartolas glosa seguro 598948</td><td>Cargo de la prima</td><td>Completar si faltan</td></tr>
-        <tr><td>5</td><td>Póliza / certificado cobertura</td><td>Asegurado / beneficiario</td><td>Cotejo</td></tr>
-        <tr><td>6</td><td>Tabla desarrollo 09-03-2023</td><td>Saldo / renta de contexto</td><td>En archivo</td></tr>
-        <tr><td>7</td><td>CMF 2454012</td><td>Reclamo previo</td><td>En archivo</td></tr>
-        <tr><td>8</td><td>Borrador escrito Q4</td><td>Corregir RUT y representante</td><td>Antes de insistir</td></tr>
-        <tr><td>9</td><td>Personería A.G.</td><td>Legitimación JPL</td><td>Al ingreso</td></tr>
-        <tr><td>10</td><td>Ficha banco corregida</td><td>97.036.000-K · Trautmann</td><td>Fija</td></tr>
-      </tbody>
-    </table>
-    <div class="ok">Fuera: C-1 · C-3 · F21/F30 · alzamiento C-5 · cuarta pista congelada.</div>
-    <a class="back" href="#indice">↑ Volver al índice</a>
-  </div>
-  <footer>Carpeta JPL · A.G. S.A. c/ Santander · trabajo interno · no es pieza de ingreso a oficina de partes</footer>
-</div>
-<script>
-function descargar(){
-  const blob = new Blob([document.documentElement.outerHTML], {type:'text/html;charset=utf-8'});
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = 'Carpeta_JPL_AG_Santander.html';
-  a.click();
-  URL.revokeObjectURL(a.href);
-}
-const links = document.querySelectorAll('.top a[href^="#"]');
-const sections = [...links].map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
-function onScroll(){
-  let cur = sections[0];
-  for(const s of sections){ if(s.getBoundingClientRect().top <= 80) cur = s; }
-  links.forEach(a => a.classList.toggle('now', a.getAttribute('href') === '#'+cur.id));
-}
-window.addEventListener('scroll', onScroll, {passive:true});
-</script>
 </body>
 </html>
