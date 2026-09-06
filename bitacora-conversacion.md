@@ -1,6 +1,6 @@
 # Bitácora de conversación — Caso Santander / Timbres / Denuncia SII
 
-*Última actualización: 2026-09-05 19:07 (America/Santiago)*
+*Última actualización: 2026-09-05 20:20 (America/Santiago)*
 
 ## 1. Gestión de ventas y comunicación (departamentos)
 
@@ -66,6 +66,14 @@ Revisión de la conversación más reciente: no hay avances nuevos respecto de l
 **Sin novedades.**
 
 Revisión de la conversación más reciente: no hay avances nuevos respecto de los cuatro puntos (gestión de ventas ciclo lunes-lunes, excepción art. 464 N°7 CPC por timbres en pagarés de mandatarios, perfeccionamiento denuncia anónima SII, tareas pendientes). El estado permanece idéntico al registrado a las 18:13.
+
+---
+
+## Actualización 2026-09-05 20:20 (America/Santiago)
+
+**Sin novedades.**
+
+Revisión de la conversación más reciente: no hay avances nuevos respecto de los cuatro puntos (gestión de ventas ciclo lunes-lunes, excepción art. 464 N°7 CPC por timbres en pagarés de mandatarios, perfeccionamiento denuncia anónima SII, tareas pendientes). El estado permanece idéntico al registrado a las 19:07.
 
 ---
 *Generado automáticamente. Se actualiza en cada conversación relevante.*
