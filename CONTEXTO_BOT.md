@@ -17,6 +17,7 @@ https://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D
 - REGISTRO_HISTORICO.md → mapa de todo lo anterior a 00_CENTRO.
 - ESTRUCTURA_00_CENTRO.md → mapa de la estructura nueva.
 - Contexto-Maestro-Grok.md → tablero vigente del bot.
+- drive/ → espejo de los Estados y Enlaces de cada proyecto (llenados).
 
 ## Índice de enlaces (verificado)
-https://www.canva.com/d/Y1FDisyRnR62x3j
+https://www.canva.com/d/TA5NfDQV8pHxPvg
