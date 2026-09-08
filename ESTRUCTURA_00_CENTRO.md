@@ -16,16 +16,28 @@ Carpeta central en Drive: https://drive.google.com/drive/folders/1dO1ITzxaPXFQdv
 
 Cada proyecto tiene: 01_Estado, 02_Documentos, 03_Enlaces.
 
+## Contenido lleno (espejo en GitHub)
+Los archivos de Estado y Enlaces están en la carpeta drive/ del repo, porque la conexión de Drive no permite crear documentos con texto.
+- drive/01_Santander/01_Estado.md
+- drive/01_Santander/03_Enlaces.md
+- drive/02_Vina/01_Estado.md
+- drive/02_Vina/03_Enlaces.md
+- drive/03_SII/01_Estado.md
+- drive/03_SII/03_Enlaces.md
+- drive/04_Seguro/01_Estado.md
+- drive/04_Seguro/03_Enlaces.md
+- drive/00_Sistema/01_Estado.md
+- drive/00_Sistema/03_Enlaces.md
+
 Regla: actualizar Estado una vez por semana. Código en GitHub, publicado en Vercel.
 
 ## Documentos Canva (estado, verificados)
-- Empieza Aquí: https://www.canva.com/d/JON4YkDix8C51mF
-- Índice de Enlaces: https://www.canva.com/d/Y1FDisyRnR62x3j
-- Estructura: https://www.canva.com/d/_8tniSkJoCbR1Nd
-- Santander: https://www.canva.com/d/GHLDJkNhK48Lelm
-- Viña: https://www.canva.com/d/SLo2IeId9AAesmx
-- Seguro: https://www.canva.com/d/gGGzx2xMKpxOZV2
-- Sistema: https://www.canva.com/d/YXVAJqKXhs2cpTF
+- Empieza Aquí: https://www.canva.com/d/7-BJKtWjxRL8ha5
+- Índice de Enlaces: https://www.canva.com/d/TA5NfDQV8pHxPvg
+- Estructura: https://www.canva.com/d/-JMmgNXlPG6q5QV
+- Santander: https://www.canva.com/d/JC9ouTnq2cAonCi
+- Sistema: https://www.canva.com/d/nu7ez9Gcxke11g4
 
 ## Índice rápido
 - INDICE_ENLACES.md: https://github.com/momolago/carpeta-q4-jpl-abogado/blob/main/INDICE_ENLACES.md
+- Espejo Drive: https://github.com/momolago/carpeta-q4-jpl-abogado/tree/main/drive
