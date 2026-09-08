@@ -34,3 +34,9 @@ Este archivo guarda el registro de todo lo que existía ANTES de la carpeta 00_C
 Todo lo nuevo nace en 00_CENTRO. Lo viejo se queda donde está y se consulta desde aquí.
 
 Enlace al centro: https://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D
+
+## 6. 2026-09-08 — Regla canónica aplicada
+
+- **Drive manda, GitHub obedece.** GitHub es espejo; se actualiza solo con "sincroniza".
+- Cifras SII: 51 ops y 52 ops quedan **descartadas / por verificar**. Ninguna se adopta hasta confirmación de Giacomo.
+- Los cajones Estado/Documentos en Drive siguen vacíos (la conexión no sube archivos); el contenido vive en el espejo GitHub y Canva. Papeles reales en carpetas viejas.
