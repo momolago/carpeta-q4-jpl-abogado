@@ -7,10 +7,11 @@ Armé una estructura simple para no perder nada y que todo quede compartido:
 - Carpeta **00_CENTRO** en Drive: https://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D
   - Subcarpetas: Santander, Viña, SII, Seguro
   - Cada una con: Estado, Documentos, Enlaces
-- Guía para el computador (Empieza Aquí): https://www.canva.com/d/EH2c3Y2GyGe1-g8
-- Índice de enlaces en Canva: https://www.canva.com/d/ARYJJj-QLhE5EXS
+- Guía para el computador (Empieza Aquí): https://www.canva.com/d/7-BJKtWjxRL8ha5
+- Índice de enlaces en Canva: https://www.canva.com/d/TA5NfDQV8pHxPvg
 - Registro histórico de todo lo anterior: REGISTRO_HISTORICO.md
 - Contexto para bots: CONTEXTO_BOT.md
+- Estados llenos (espejo en GitHub, porque Drive no permite crear docs con texto desde aquí): https://github.com/momolago/carpeta-q4-jpl-abogado/tree/main/drive
 
 Lo que necesito de ti:
 1. Que el bot de proyectos apunte a 00_CENTRO como fuente única.
