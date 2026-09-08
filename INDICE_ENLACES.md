@@ -1,6 +1,6 @@
 # Índice de Enlaces 00_CENTRO
 
-Abre cualquiera de estos enlaces en Safari o Chrome en tu Mac. No necesitas saber programar.
+Verificado: 8 de septiembre de 2026, 04:31 AM.
 
 ## Centro principal
 - 00_CENTRO (Drive): https://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D
@@ -11,17 +11,17 @@ Abre cualquiera de estos enlaces en Safari o Chrome en tu Mac. No necesitas sabe
 - 03_SII: https://drive.google.com/drive/folders/1IdZUhLegLUlCUODV7HOPjm5d6BUdZ3pY
 - 04_Seguro: https://drive.google.com/drive/folders/1qIW82YoGRcJewoNZ66AD_-bIdQoZxX2R
 
-## Estados en Canva
-- Estructura: https://www.canva.com/d/xw4kDnq4PayoxEp
-- Santander: https://www.canva.com/d/PpR3M1Hm9oWkdEw
-- Viña: https://www.canva.com/d/WRoouV3NbdqT_5A
-- Seguro: https://www.canva.com/d/JtybRaZofXpXgG3
-- Sistema: https://www.canva.com/d/P6Gxi8Aut5CKl9U
-- Índice de Enlaces: https://www.canva.com/d/y-z2fenZvNkDJqS
+## Estados en Canva (con contenido real)
+- Empieza Aquí: https://www.canva.com/d/JON4YkDix8C51mF
+- Índice de Enlaces: https://www.canva.com/d/Y1FDisyRnR62x3j
+- Estructura: https://www.canva.com/d/_8tniSkJoCbR1Nd
+- Santander: https://www.canva.com/d/GHLDJkNhK48Lelm
+- Viña: https://www.canva.com/d/SLo2IeId9AAesmx
+- Seguro: https://www.canva.com/d/gGGzx2xMKpxOZV2
+- Sistema: https://www.canva.com/d/YXVAJqKXhs2cpTF
 
 ## Código y publicación
-- GitHub (carpeta-q4-jpl-abogado): https://github.com/momolago/carpeta-q4-jpl-abogado
-- Estructura en GitHub: https://github.com/momolago/carpeta-q4-jpl-abogado/blob/main/ESTRUCTURA_00_CENTRO.md
-- Vercel (carpeta-q4-abogado): https://carpeta-q4-abogado.vercel.app
+- GitHub: https://github.com/momolago/carpeta-q4-jpl-abogado
+- Vercel: https://carpeta-q4-abogado.vercel.app
 
-Regla: actualiza el Estado una vez por semana.
+Regla: actualizar Estado una vez por semana.
