@@ -16,6 +16,7 @@
 ## Regla común
 Lo viejo no se borra. Se mueve a la carpeta que le corresponda. De ahora en adelante todo nace en 00_CENTRO.
 
-Índice: https://www.canva.com/d/ARYJJj-QLhE5EXS
-Guía: https://www.canva.com/d/EH2c3Y2GyGe1-g8
+Índice: https://www.canva.com/d/TA5NfDQV8pHxPvg
+Guía: https://www.canva.com/d/7-BJKtWjxRL8ha5
 Issue: https://github.com/momolago/carpeta-q4-jpl-abogado/issues/1
+Espejo Drive: https://github.com/momolago/carpeta-q4-jpl-abogado/tree/main/drive
