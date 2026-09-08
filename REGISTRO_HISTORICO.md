@@ -1,42 +1,37 @@
-# REGISTRO HISTÓRICO — Estructura anterior a 00_CENTRO
+# REGISTRO_HISTORICO.md
+Bitácora de `00_CENTRO`. Entradas nuevas arriba. No borrar entradas previas.
 
-Fecha de creación: 8 de septiembre de 2026
+## 2026-09-08 (sync) — Espejo GitHub actualizado a pedido «sincroniza»
+- Repo: momolago/carpeta-q4-jpl-abogado
+- Copiados desde Drive: CONTEXTO_BOT.md · REGISTRO_HISTORICO.md · 03_SII/ESTADO.md · Enlaces Canva canónicos
+- Mapa pre-00_CENTRO de GitHub no se borró: quedó en `REGISTRO_HISTORICO-pre-00_CENTRO.md`
+- Repo `canal-neutron-heavy` sigue siendo ficha, no espejo operativo
 
-Este archivo guarda el registro de todo lo que existía ANTES de la carpeta 00_CENTRO. Nada se borró. Esto es solo el mapa de dónde estaba cada cosa.
+## 2026-09-08 (ter) — Cruce SII solo especialista
+- JACK no hace cruce SII: deriva al especialista (DA-SII).
+- Especialista cruza contra el sitio del SII.
+- Solo entra 100% verificable: RUT + fecha + monto coinciden.
+- Lo que no cuadre = pendiente, aparte; no se mezcla.
+- Nada se adopta / presenta / cruza con Santander hasta OK de Giacomo.
+- Cifras: ninguna adoptada · 51 descartada · 52 por verificar · hasta OK solo maestro.
+- Actualizados en Drive: CONTEXTO_BOT.md · REGISTRO_HISTORICO.md · 03_SII/01_Estado/ESTADO.md.
+- Versiones previas archivadas (no borradas): `*-2026-09-08b.md`.
+- Canva sin cambios: Empieza Aquí / Índice.
 
-## 1. Repositorios en GitHub (momolago)
+## 2026-09-08 (bis) — Drive manda / GitHub espejo + cifras SII HOLD
+- Giacomo: Drive manda, GitHub obedece. Sync solo con pedido «sincroniza». Nunca editar GitHub directo.
+- Cifras SII: **ninguna adoptada**. **51 ops descartada**. **52 por verificar**. Mantener solo lo del maestro hasta confirmación de Giacomo.
+- Índice Canva reafirmado: https://www.canva.com/d/ARYJJj-QLhE5EXS
+- CONTEXTO_BOT.md actualizado en Drive + espejo `/workspace/00-centro/`.
+- Versión previa archivada (no borrada): `CONTEXTO_BOT-2026-09-08a.md` · `REGISTRO_HISTORICO-2026-09-08a.md`.
 
-- carpeta-q4-jpl-abogado → caso Santander, bitácora, contexto maestro. Activo.
-- esquina-vina → fichas del local gastronómico 3 Norte 88.
-- 3norte88 y 3norte88-tres-versiones → casi lo mismo que esquina-vina. Uno de los dos sobra.
-- nova-storm-island-mist → solo un commit inicial, sin contenido real.
-- fjord-cinder-umbra-thunder → sin uso claro.
-- express-js-on-vercel → privado, sin uso claro.
-
-## 2. Drive (antes de 00_CENTRO)
-
-- Contexto-Maestro-Grok → tablero del bot, actualizado al 4 de septiembre.
-- Reportes consolidados Santander, normativa JPL.
-- Caso seguro 598948 y DA-SII de agosto → sueltos en carpetas sueltas.
-- CEREBRO-MOMO → doctrina del bot, abandonado desde agosto.
-
-## 3. Vercel
-
-- Equipo "momo's projects" vacío, sin despliegues.
-- Solo carpeta-q4-abogado.vercel.app publicado.
-
-## 4. Canva
-
-- Documentos de estado creados el 8 de septiembre dentro de 00_CENTRO.
-
-## 5. Regla a partir de ahora
-
-Todo lo nuevo nace en 00_CENTRO. Lo viejo se queda donde está y se consulta desde aquí.
-
-Enlace al centro: https://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D
-
-## 6. 2026-09-08 — Regla canónica aplicada
-
-- **Drive manda, GitHub obedece.** GitHub es espejo; se actualiza solo con "sincroniza".
-- Cifras SII: 51 ops y 52 ops quedan **descartadas / por verificar**. Ninguna se adopta hasta confirmación de Giacomo.
-- Los cajones Estado/Documentos en Drive siguen vacíos (la conexión no sube archivos); el contenido vive en el espejo GitHub y Canva. Papeles reales en carpetas viejas.
+## 2026-09-08 — Creación de 00_CENTRO (fuente única)
+- Giacomo creó carpeta Drive `00_CENTRO` (`1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D`) con `00_Sistema`, `01_Santander`, `02_Vina`, `03_SII`, `04_Seguro`.
+- Cada frente: `01_Estado` / `02_Documentos` / `03_Enlaces`.
+- Sistema: Estado, Documentos, Enlaces, Canva, GitHub, Vercel.
+- Canva Empieza Aquí: https://www.canva.com/d/EH2c3Y2GyGe1-g8
+- Canva Índice enlaces: https://www.canva.com/d/ARYJJj-QLhE5EXS
+- Protocolo: JACK ejecuta técnica; Giacomo contexto y decisiones.
+- **No se borra lo anterior:** materiales viejos quedan en su ubicación original. Este registro apunta; no mueve destructivamente.
+- JACK subió/creó en Drive: `CONTEXTO_BOT.md` + `REGISTRO_HISTORICO.md` + `ENLACES-CANVA.md`.
+- Legado vivo (no borrar): `Contexto-Maestro-Grok.md` id `1kqZQfLIy8h73iIxjsa8qAuRXiSJwvFew` (04-sep-2026). Cifras PAC del maestro no son adopción; ver entradas bis/ter.

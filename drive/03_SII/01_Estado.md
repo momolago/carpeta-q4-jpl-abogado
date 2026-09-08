@@ -1,15 +1,23 @@
-# Estado — SII
+# Estado · 03_SII · 2026-09-08
 
-Actualizado: 8 de septiembre de 2026
+## Cruce SII
+- JACK **no** cruza: deriva al especialista DA-SII.
+- Especialista cruza **contra el sitio del SII**.
+- Solo entra lo **100% verificable**: RUT + fecha + monto coinciden.
+- Lo que no cuadre = **pendiente, aparte** (no mezclar).
+- Cero adopción / presentación / cruce con Santander hasta **OK** de Giacomo.
 
-## Cifras
-**Ninguna adoptada.**
-- La cifra 51 ops · $6.010.776 queda descartada como canónica.
-- La cifra 52 ops queda como por verificar, no se adopta.
-- Se mantiene solo lo que conste en el maestro, sin fijar número, hasta que Giacomo lo confirme.
+## Cifras (Giacomo)
+- **Ninguna cifra SII adoptada.**
+- **51 ops: descartada.**
+- **52 ops: por verificar** (no canónica).
+- Hasta confirmación: solo lo del maestro; packs/workspace = trabajo, no adopción.
 
-## DA-SII
-Borrador de agosto. No canónico hasta autorización explícita.
+## Disparo
+- HOLD ingreso DA-SII hasta «dale» / OK.
+- Preparar / cazar VACÍOs: sí (sin adoptar totales).
 
-## Regla
-No cruzar con el eje Santander. No inventar cifras nuevas.
+## Fuente
+- CONTEXTO_BOT.md en `00_Sistema/02_Documentos`
+- Índice Canva: https://www.canva.com/d/ARYJJj-QLhE5EXS
+- Empieza Aquí: https://www.canva.com/d/EH2c3Y2GyGe1-g8

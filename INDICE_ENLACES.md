@@ -1,9 +1,10 @@
 # Índice de Enlaces 00_CENTRO
 
-Verificado: 8 de septiembre de 2026, 04:50 AM.
+Sincronizado desde Drive: 8 de septiembre de 2026.
 
 ## Centro principal
 - 00_CENTRO (Drive): https://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D
+- CANAL-NEUTRON-HEAVY (pin): https://drive.google.com/drive/folders/1V1rYBGNP5wNGEnLR8KGUWIiWRkQj8Dyf
 
 ## Proyectos
 - 01_Santander: https://drive.google.com/drive/folders/1sGIbvXKEhSpi2Rlv6cviG75d0UdRoAiS
@@ -11,16 +12,12 @@ Verificado: 8 de septiembre de 2026, 04:50 AM.
 - 03_SII: https://drive.google.com/drive/folders/1IdZUhLegLUlCUODV7HOPjm5d6BUdZ3pY
 - 04_Seguro: https://drive.google.com/drive/folders/1qIW82YoGRcJewoNZ66AD_-bIdQoZxX2R
 
-## Estados en Canva (con contenido real)
-- Empieza Aquí: https://www.canva.com/d/7-BJKtWjxRL8ha5
-- Índice de Enlaces: https://www.canva.com/d/TA5NfDQV8pHxPvg
-- Estructura: https://www.canva.com/d/-JMmgNXlPG6q5QV
-- Santander: https://www.canva.com/d/JC9ouTnq2cAonCi
-- Sistema: https://www.canva.com/d/nu7ez9Gcxke11g4
+## Canva canónico (no cambiar)
+- Empieza Aquí: https://www.canva.com/d/EH2c3Y2GyGe1-g8
+- Índice de Enlaces: https://www.canva.com/d/ARYJJj-QLhE5EXS
 
 ## Código y publicación
-- GitHub: https://github.com/momolago/carpeta-q4-jpl-abogado
+- GitHub espejo: https://github.com/momolago/carpeta-q4-jpl-abogado
+- Ficha canal (no fuente): https://github.com/momolago/canal-neutron-heavy
 - Vercel: https://carpeta-q4-abogado.vercel.app
-- Espejo Drive (Estados llenos): https://github.com/momolago/carpeta-q4-jpl-abogado/tree/main/drive
-
-Regla: actualizar Estado una vez por semana.
+- Espejo carpetas: https://github.com/momolago/carpeta-q4-jpl-abogado/tree/main/drive
