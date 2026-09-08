@@ -1,4 +1,7 @@
-# Enlaces — Seguro
+# 04_Seguro / 03_Enlaces
 
-- Carpeta Drive: https://drive.google.com/drive/folders/1qIW82YoGRcJewoNZ66AD_-bIdQoZxX2R
-- Estado en Canva: https://www.canva.com/d/4obwGzViCmSZCIX
+Drive vacío al 2026-09-08 08:33 -03.
+
+Carpeta: https://drive.google.com/drive/folders/1MZtWClwPNzex_yiVF8WtldIScJYwwX97
+
+El texto anterior quedó en `03_Enlaces-apano-2026-09-08.md`.

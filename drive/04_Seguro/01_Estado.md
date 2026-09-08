@@ -1,9 +1,8 @@
-# Estado — Seguro
+# 04_Seguro / 01_Estado
 
-Actualizado: 8 de septiembre de 2026
+Drive vacío al 2026-09-08 08:33 -03.
 
-## Caso
-Póliza 598948 / leaseback 471,88 UF. Causa C-4 dentro de Q4.
+Carpeta: https://drive.google.com/drive/folders/1u6J7QZkIuI6JVZUuLRRJWxAXNphUL0N9
 
-## Estado
-En curso con el litigio Santander. Sin novedad separada.
+El texto anterior de este espejo no estaba en Drive. Quedó en `01_Estado-apano-2026-09-08.md`.
+No adoptar póliza ni UF desde el apaño.

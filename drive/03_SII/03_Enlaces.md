@@ -1,6 +1,7 @@
-# Enlaces — SII
+# 03_SII / 03_Enlaces
 
-- Carpeta Drive: https://drive.google.com/drive/folders/1IdZUhLegLUlCUODV7HOPjm5d6BUdZ3pY
-- Guía v26: https://docs.google.com/document/d/1oGa6UyBZCJrVVdh1b_0bg_zqdTlRiV4GhdU4UPVhgRQ
-- Expediente maestro: https://docs.google.com/document/d/1-BdSGGomIJgslMdAZfqJhMM9EGA9XVQ2aCGZFe44yDw
-- Estado en Canva: https://www.canva.com/d/4obwGzViCmSZCIX
+Drive vacío al 2026-09-08 08:33 -03.
+
+Carpeta: https://drive.google.com/drive/folders/10stXsfQW7F0RhJZNei0Gs4iCgtpk6RyE
+
+El texto anterior de este espejo no estaba en Drive. Quedó en `03_Enlaces-apano-2026-09-08.md`.
