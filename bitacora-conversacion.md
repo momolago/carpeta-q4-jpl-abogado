@@ -1,6 +1,6 @@
 # Bitácora de conversación — Caso Santander / Timbres / Denuncia SII
 
-*Última actualización: 2026-09-08 05:08 (America/Santiago)*
+*Última actualización: 2026-09-08 06:16 (America/Santiago)*
 
 ## 1. Gestión de ventas y comunicación (departamentos)
 
@@ -494,6 +494,21 @@ Revisión de la conversación más reciente: no hay avances nuevos respecto de l
 **Sin novedades.**
 
 Revisión de la conversación más reciente: no hay avances nuevos respecto de los cuatro puntos (gestión de ventas ciclo lunes-lunes, excepción art. 464 N°7 CPC por timbres en pagarés de mandatarios, perfeccionamiento denuncia anónima SII, tareas pendientes). El estado permanece idéntico al registrado a las 04:10.
+
+---
+*Generado automáticamente. Se actualiza en cada conversación relevante.*
+
+## Actualización 2026-09-08 06:16 (America/Santiago)
+
+**Sin novedades.**
+
+Revisión de la conversación más reciente: no hay avances nuevos respecto de los cuatro puntos (gestión de ventas ciclo lunes-lunes, excepción art. 464 N°7 CPC por timbres en pagarés de mandatarios, perfeccionamiento denuncia anónima SII, tareas pendientes). El estado permanece idéntico al registrado a las 05:08.
+
+Estado vigente (sin cambio):
+1. Ventas/comunicación departamentos — ciclo lunes a lunes; primer reporte el lunes siguiente. Pendiente.
+2. Timbres/estampillas — excepción procesal art. 464 N°7 CPC por falta de mérito ejecutivo en pagarés de mandatarios; escrito no redactado. No afirmar que los pagarés están «viciados» fuera del tribunal.
+3. Denuncia anónima SII — perfeccionar con material de Drive; borradores existen; no canónico hasta autorización. Cifras 51/52 ops no adoptadas.
+4. Pendientes — escrito 464 N°7; perfeccionar Pieza 1/2 SII; automatización horaria de este MD; ciclo semanal de ventas.
 
 ---
 *Generado automáticamente. Se actualiza en cada conversación relevante.*
