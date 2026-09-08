@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Canal Jack Neutrón + Grok Heavy</title>
+<style>
+:root{--cream:#F4EFE6;--ink:#161310;--wine:#6E2B28;--olive:#2C3F36;--paper:#EDE7DB;--line:rgba(22,19,16,.16)}
+*{box-sizing:border-box}html,body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.45 Georgia,"Times New Roman",serif}
+header{padding:28px 22px 18px;border-bottom:1px solid var(--line)}
+.kicker{letter-spacing:.16em;text-transform:uppercase;font:11px/1.2 ui-sans-serif,system-ui,sans-serif;color:var(--wine)}
+h1{font-size:28px;font-weight:500;margin:8px 0 6px}
+.lead{max-width:42rem;margin:0}
+main{max-width:920px;margin:0 auto;padding:22px}
+.roles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:18px 0}
+.roles div,.box{background:var(--paper);border:1px solid var(--line);padding:12px 14px}
+.roles b{display:block;font:12px/1.2 ui-sans-serif,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--olive);margin-bottom:4px}
+label{display:block;font:12px/1.2 ui-sans-serif,system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;margin:18px 0 8px}
+textarea{width:100%;min-height:140px;resize:vertical;background:#fff;border:1px solid var(--line);padding:12px;font:16px/1.4 Georgia,serif}
+.row{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+button,a.btn{appearance:none;border:1px solid var(--ink);background:var(--ink);color:var(--cream);padding:10px 14px;font:12px/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;cursor:pointer}
+button.ghost,a.ghost{background:transparent;color:var(--ink)}
+.status{min-height:1.2em;margin:10px 0;font:13px/1.4 ui-sans-serif,system-ui,sans-serif;color:var(--olive)}
+.blocks{display:grid;gap:10px;margin-top:16px}
+.blocks h2{margin:0 0 6px;font:12px/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--wine)}
+.blocks pre{white-space:pre-wrap;margin:0;font:15px/1.45 Georgia,serif}
+.pins{display:grid;gap:8px;margin:22px 0}
+.pins a{color:var(--wine)}
+footer{padding:18px 22px 40px;border-top:1px solid var(--line);font:13px/1.45 ui-sans-serif,system-ui,sans-serif;color:#5b534b}
+@media(max-width:720px){.roles{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="kicker">Canal único · no es un tercer jefe</div>
+<h1>Jack Neutrón + Grok Heavy</h1>
+<p class="lead">El plugin solo reenvía. Jack ejecuta. Heavy tensiona. Tú decides. Drive 00_CENTRO es la fuente. No toca GitHub. No adopta cifras. No decide.</p>
+</header>
+<main>
+<section class="roles">
+<div><b>Jack</b>Ejecuta el recado concreto, o dice «nada que ejecutar».</div>
+<div><b>Heavy</b>Opina y marca el desfase, o dice «sin tensión».</div>
+<div><b>Tú</b>Cierras. Si la fusión manda, está rota.</div>
+</section>
+<label for="recado">Recado</label>
+<textarea id="recado" placeholder="Un recado. Qué hay que hacer, dónde vive, qué no tocar."></textarea>
+<div class="row">
+<button id="reenviar" type="button">Reenviar</button>
+<button id="copiar" class="ghost" type="button">Copiar bloques</button>
+<a class="btn ghost" href="https://grok.com" target="_blank" rel="noopener">Abrir Grok Heavy</a>
+</div>
+<p class="status" id="status">Plugin publicado. Escribe un recado y pulsa Reenviar.</p>
+<section class="blocks">
+<article class="box"><h2>Jack</h2><pre id="jack">—</pre></article>
+<article class="box"><h2>Heavy</h2><pre id="heavy">—</pre></article>
+<article class="box"><h2>Drive</h2><pre id="drive">Primero Drive 00_CENTRO.
+https://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D</pre></article>
+</section>
+<section class="pins">
+<div>Fuente: <a href="https://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D">00_CENTRO</a></div>
+<div>Pin del canal: <a href="https://drive.google.com/drive/folders/1V1rYBGNP5wNGEnLR8KGUWIiWRkQj8Dyf">CANAL-NEUTRON-HEAVY</a></div>
+<div>Carpeta C-1 / Leopoldo: <a href="/">carpeta Q4</a></div>
+<div>Seguros: <a href="https://drive.google.com/drive/folders/1qIW82YoGRcJewoNZ66AD_-bIdQoZxX2R">04_Seguro</a></div>
+</section>
+</main>
+<footer>
+El razonamiento de Grok Heavy vive en el hilo de Grok Heavy. Esta página es la puerta pública: formatea y reenvía, no manda.
+<div>probe: vivo</div>
+</footer>
+<script>
+const $ = (id) => document.getElementById(id);
+const verbs = /\b(anota|sube|publica|crea|manda|envia|envía|corrige|pinta|despliega|arma|deja|copia|pega)\b/i;
+function route(text){
+  const t = text.trim();
+  if(!t) return {jack:'nada que ejecutar', heavy:'sin tensión', drive:'Primero Drive 00_CENTRO.\nhttps://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D'};
+  const jack = verbs.test(t) ? ('Ejecutar el recado, sin decidir:\n' + t) : 'nada que ejecutar — consulta, no hay tarea concreta';
+  const heavy = 'Tensión: el canal no decide, no toca GitHub, no adopta cifras. Si el recado pide mandar o inventar números, parar.';
+  let drive = 'Primero Drive 00_CENTRO.\nhttps://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D';
+  if(/sii|tribut/i.test(t)) drive += '\nFrente 03_SII — especialista, no el canal.\nhttps://drive.google.com/drive/folders/1IdZUhLegLUlCUODV7HOPjm5d6BUdZ3pY';
+  else if(/seguro|garant|p[oó]liza|leaseback|c-4|c-1/i.test(t)) drive += '\nFrente 04_Seguro.\nhttps://drive.google.com/drive/folders/1qIW82YoGRcJewoNZ66AD_-bIdQoZxX2R';
+  else if(/viña|fellini|3 norte|depto 202/i.test(t)) drive += '\nFrente 02_Viña.\nhttps://drive.google.com/drive/folders/16EF35M7yKVxa3xQG-DkE39dhizmKJdN8';
+  else if(/santander|jpl|querella/i.test(t)) drive += '\nFrente 01_Santander.\nhttps://drive.google.com/drive/folders/1sGIbvXKEhSpi2Rlv6cviG75d0UdRoAiS';
+  return {jack, heavy, drive};
+}
+$('reenviar').addEventListener('click', () => {
+  const out = route($('recado').value);
+  $('jack').textContent = out.jack;
+  $('heavy').textContent = out.heavy;
+  $('drive').textContent = out.drive;
+  $('status').textContent = 'Reenviado. El canal no decidió. Cierra tú.';
+});
+$('copiar').addEventListener('click', async () => {
+  const pack = ['JACK\n'+$('jack').textContent,'HEAVY\n'+$('heavy').textContent,'DRIVE\n'+$('drive').textContent].join('\n\n');
+  try { await navigator.clipboard.writeText(pack); $('status').textContent = 'Bloques copiados.'; }
+  catch { $('status').textContent = 'No se pudo copiar.'; }
+});
+</script>
+</body>
+</html>
