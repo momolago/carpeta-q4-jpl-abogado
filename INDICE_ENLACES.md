@@ -1,6 +1,6 @@
 # Índice de Enlaces 00_CENTRO
 
-Verificado: 8 de septiembre de 2026, 04:34 AM.
+Verificado: 8 de septiembre de 2026, 04:50 AM.
 
 ## Centro principal
 - 00_CENTRO (Drive): https://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D
@@ -12,16 +12,15 @@ Verificado: 8 de septiembre de 2026, 04:34 AM.
 - 04_Seguro: https://drive.google.com/drive/folders/1qIW82YoGRcJewoNZ66AD_-bIdQoZxX2R
 
 ## Estados en Canva (con contenido real)
-- Empieza Aquí: https://www.canva.com/d/4RBFS53t6A11u_t
-- Índice de Enlaces: https://www.canva.com/d/3zE2MPn-ESEM3W7
-- Estructura: https://www.canva.com/d/xoBmidgJ89Qs70b
-- Santander: https://www.canva.com/d/x4c1uk1hrHsz90V
-- Viña: https://www.canva.com/d/Ep39JbYFyy4d4mP
-- Seguro: https://www.canva.com/d/4obwGzViCmSZCIX
-- Sistema: https://www.canva.com/d/FLIMzuPJN1UXx0L
+- Empieza Aquí: https://www.canva.com/d/7-BJKtWjxRL8ha5
+- Índice de Enlaces: https://www.canva.com/d/TA5NfDQV8pHxPvg
+- Estructura: https://www.canva.com/d/-JMmgNXlPG6q5QV
+- Santander: https://www.canva.com/d/JC9ouTnq2cAonCi
+- Sistema: https://www.canva.com/d/nu7ez9Gcxke11g4
 
 ## Código y publicación
 - GitHub: https://github.com/momolago/carpeta-q4-jpl-abogado
 - Vercel: https://carpeta-q4-abogado.vercel.app
+- Espejo Drive (Estados llenos): https://github.com/momolago/carpeta-q4-jpl-abogado/tree/main/drive
 
 Regla: actualizar Estado una vez por semana.
