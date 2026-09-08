@@ -2,12 +2,11 @@
 
 Actualizado: 8 de septiembre de 2026
 
-## Núcleo canónico (obedecer al maestro 4-sep)
-51 operaciones · $6.010.776 (20-abr-2020 a 07-oct-2024).
-Umbral 100 UTA no alcanzado. No presentar.
-
-## Anotación de Jack (POR VERIFICAR, no adoptada)
-Jack registró 52 operaciones. Se mantiene como nota; la cifra canónica sigue siendo 51.
+## Cifras
+**Ninguna adoptada.**
+- La cifra 51 ops · $6.010.776 queda descartada como canónica.
+- La cifra 52 ops queda como por verificar, no se adopta.
+- Se mantiene solo lo que conste en el maestro, sin fijar número, hasta que Giacomo lo confirme.
 
 ## DA-SII
 Borrador de agosto. No canónico hasta autorización explícita.
