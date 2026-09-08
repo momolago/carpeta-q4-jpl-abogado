@@ -18,5 +18,5 @@ https://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D
 - ESTRUCTURA_00_CENTRO.md → mapa de la estructura nueva.
 - Contexto-Maestro-Grok.md → tablero vigente del bot.
 
-## Índice de enlaces
-https://www.canva.com/d/y-z2fenZvNkDJqS
+## Índice de enlaces (verificado)
+https://www.canva.com/d/Y1FDisyRnR62x3j
