@@ -1,6 +1,6 @@
 # Índice de Enlaces 00_CENTRO
 
-Verificado: 8 de septiembre de 2026, 04:31 AM.
+Verificado: 8 de septiembre de 2026, 04:34 AM.
 
 ## Centro principal
 - 00_CENTRO (Drive): https://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D
@@ -12,13 +12,13 @@ Verificado: 8 de septiembre de 2026, 04:31 AM.
 - 04_Seguro: https://drive.google.com/drive/folders/1qIW82YoGRcJewoNZ66AD_-bIdQoZxX2R
 
 ## Estados en Canva (con contenido real)
-- Empieza Aquí: https://www.canva.com/d/JON4YkDix8C51mF
-- Índice de Enlaces: https://www.canva.com/d/Y1FDisyRnR62x3j
-- Estructura: https://www.canva.com/d/_8tniSkJoCbR1Nd
-- Santander: https://www.canva.com/d/GHLDJkNhK48Lelm
-- Viña: https://www.canva.com/d/SLo2IeId9AAesmx
-- Seguro: https://www.canva.com/d/gGGzx2xMKpxOZV2
-- Sistema: https://www.canva.com/d/YXVAJqKXhs2cpTF
+- Empieza Aquí: https://www.canva.com/d/4RBFS53t6A11u_t
+- Índice de Enlaces: https://www.canva.com/d/3zE2MPn-ESEM3W7
+- Estructura: https://www.canva.com/d/xoBmidgJ89Qs70b
+- Santander: https://www.canva.com/d/x4c1uk1hrHsz90V
+- Viña: https://www.canva.com/d/Ep39JbYFyy4d4mP
+- Seguro: https://www.canva.com/d/4obwGzViCmSZCIX
+- Sistema: https://www.canva.com/d/FLIMzuPJN1UXx0L
 
 ## Código y publicación
 - GitHub: https://github.com/momolago/carpeta-q4-jpl-abogado
