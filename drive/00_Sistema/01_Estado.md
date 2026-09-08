@@ -2,9 +2,15 @@
 
 Actualizado: 8 de septiembre de 2026
 
-## Reglas
-- Una sola carpeta central: 00_CENTRO
-- Cada proyecto: 01_Estado, 02_Documentos, 03_Enlaces
+## Regla canónica
+**Drive manda. GitHub obedece.**
+- Fuente de verdad: carpeta `00_CENTRO` en Drive.
+- GitHub es espejo: se actualiza solo cuando Giacomo cambia Drive y pide "sincroniza".
+- Nunca editar GitHub directo. Si alguien lo hace, se ignora.
+
+## Estructura
+- Una sola carpeta central: `00_CENTRO`
+- Cada proyecto: `01_Estado`, `02_Documentos`, `03_Enlaces`
 - Actualizar Estado una vez por semana
 - Código en GitHub, publicado en Vercel
 - Contexto-Maestro se actualiza semanalmente
