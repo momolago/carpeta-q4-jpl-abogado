@@ -7,7 +7,8 @@ Armé una estructura simple para no perder nada y que todo quede compartido:
 - Carpeta **00_CENTRO** en Drive: https://drive.google.com/drive/folders/1dO1ITzxaPXFQdvsBjLLuEo6z5_jLPp9D
   - Subcarpetas: Santander, Viña, SII, Seguro
   - Cada una con: Estado, Documentos, Enlaces
-- Índice de enlaces en Canva: https://www.canva.com/d/3zE2MPn-ESEM3W7
+- Guía para el computador (Empieza Aquí): https://www.canva.com/d/EH2c3Y2GyGe1-g8
+- Índice de enlaces en Canva: https://www.canva.com/d/ARYJJj-QLhE5EXS
 - Registro histórico de todo lo anterior: REGISTRO_HISTORICO.md
 - Contexto para bots: CONTEXTO_BOT.md
 
