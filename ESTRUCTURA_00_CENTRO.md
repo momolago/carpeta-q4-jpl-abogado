@@ -4,7 +4,7 @@ Carpeta central en Drive: https://drive.google.com/drive/folders/1dO1ITzxaPXFQdv
 
 ## Proyectos
 - 01_Santander: https://drive.google.com/drive/folders/1sGIbvXKEhSpi2Rlv6cviG75d0UdRoAiS
-- 02_Vina: https://drive.google.com/drive/folders/16EF35M7yKVxa3xQG-DkE39dhizmKJdN8
+- 02_Viña: https://drive.google.com/drive/folders/16EF35M7yKVxa3xQG-DkE39dhizmKJdN8
 - 03_SII: https://drive.google.com/drive/folders/1IdZUhLegLUlCUODV7HOPjm5d6BUdZ3pY
 - 04_Seguro: https://drive.google.com/drive/folders/1qIW82YoGRcJewoNZ66AD_-bIdQoZxX2R
 
@@ -18,13 +18,14 @@ Cada proyecto tiene: 01_Estado, 02_Documentos, 03_Enlaces.
 
 Regla: actualizar Estado una vez por semana. Código en GitHub, publicado en Vercel.
 
-## Documentos Canva (estado)
-- Estructura: https://www.canva.com/d/xw4kDnq4PayoxEp
-- Santander: https://www.canva.com/d/PpR3M1Hm9oWkdEw
-- Viña: https://www.canva.com/d/WRoouV3NbdqT_5A
-- Seguro: https://www.canva.com/d/JtybRaZofXpXgG3
-- Sistema: https://www.canva.com/d/P6Gxi8Aut5CKl9U
-- Índice de Enlaces: https://www.canva.com/d/y-z2fenZvNkDJqS
+## Documentos Canva (estado, verificados)
+- Empieza Aquí: https://www.canva.com/d/JON4YkDix8C51mF
+- Índice de Enlaces: https://www.canva.com/d/Y1FDisyRnR62x3j
+- Estructura: https://www.canva.com/d/_8tniSkJoCbR1Nd
+- Santander: https://www.canva.com/d/GHLDJkNhK48Lelm
+- Viña: https://www.canva.com/d/SLo2IeId9AAesmx
+- Seguro: https://www.canva.com/d/gGGzx2xMKpxOZV2
+- Sistema: https://www.canva.com/d/YXVAJqKXhs2cpTF
 
 ## Índice rápido
 - INDICE_ENLACES.md: https://github.com/momolago/carpeta-q4-jpl-abogado/blob/main/INDICE_ENLACES.md
