@@ -1,1 +1,94 @@
-<!DOCTYPE html><html lang=es><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>C-1 · Seguro de Garantía</title></head><body><p>Ver despliegue Vercel carpeta-q4-abogado. Fuente local artifacts/index.html</p></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C-1 · Seguro de Garantía · carpeta para abogado</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600;700&display=swap');
+:root{--ink:#161310;--ink2:#3b302a;--muted:#6d5f56;--faint:#9c8d82;--cream:#F4EFE6;--paper:#FBF7F0;--line:#E4D9C9;--wine:#6E2B28;--wine2:#8f4021;--olive:#2C3F36;--olivebg:#eef3e4;--rojo:#9b1c1c;--rojobg:#fde8e8;--rojoline:#e07a7a;--amber:#fdf3dc;--azul:#2c4a6e}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink2);font-family:Inter,system-ui,sans-serif;font-size:15.5px;line-height:1.62}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;color:var(--ink);font-weight:650;margin:0}
+a{color:var(--azul)}a.ley{color:var(--wine2);font-weight:650;border-bottom:1px dashed #dfae91;text-decoration:none}
+.wrap{max-width:880px;margin:0 auto;padding:22px 18px 96px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 18px;position:sticky;top:0;z-index:20;background:var(--cream);padding:10px 0}
+.tabs a{font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--muted);text-decoration:none;border:1px solid var(--line);background:#fff;padding:7px 11px;border-radius:999px}
+.tag{display:inline-block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--muted);border:1px solid var(--line);background:#f1ece5;border-radius:999px;padding:4px 12px;margin-bottom:12px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:26px;margin:0 0 16px}
+.card h1{font-size:clamp(28px,5vw,40px);line-height:1.12;margin:4px 0 16px}
+.card h2{font-size:22px;margin:0 0 14px}
+.resumen{border:2px solid var(--ink);border-radius:16px;padding:18px 20px;background:#fff}
+.resumen ol{margin:0;padding-left:22px}.resumen li{margin:0 0 8px}
+.monto{display:grid;grid-template-columns:1.2fr 1fr;gap:12px;margin:18px 0 0}
+.box{border-radius:14px;padding:16px 18px}.box.dark{background:var(--ink);color:#FBF7F0}.box.light{background:#fff;border:1px solid var(--line)}
+.box .lbl{font-size:10px;letter-spacing:.12em;text-transform:uppercase;opacity:.7;margin-bottom:4px}
+.box .num{font-family:Fraunces,Georgia,serif;font-size:28px;font-weight:650}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line);font-size:14px}
+.meta b{display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:3px}
+.split{display:grid;grid-template-columns:1.15fr .85fr;gap:14px}
+.col{border:1px solid var(--line);border-radius:14px;padding:16px;background:#fff}
+.col h3{font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 12px;color:var(--muted);font-family:Inter,sans-serif;font-weight:700}
+.item{padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}.item:last-child{border-bottom:0}
+.item .k{display:block;font-size:12px;font-weight:700;color:var(--wine);margin-bottom:2px}
+.flags{background:var(--rojobg);border:2px solid var(--rojo)}.flags h3{color:var(--rojo)}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.escrito{background:var(--ink);color:#FBF7F0;border-radius:18px;padding:26px}.escrito h2{color:#FBF7F0;margin-bottom:14px}.escrito ol{margin:0;padding-left:20px}.escrito li{margin:0 0 10px}
+.aviso{border-left:4px solid #b4552d;background:var(--amber);padding:12px 14px;margin-top:14px;border-radius:0 10px 10px 0}
+.ok{border-left:4px solid var(--olive);background:var(--olivebg);padding:12px 14px;margin-top:14px;border-radius:0 10px 10px 0}
+.btn{position:fixed;bottom:20px;right:20px;background:var(--wine);color:#fff;border:0;border-radius:999px;padding:13px 20px;font-weight:700;cursor:pointer;z-index:40}
+footer{margin-top:28px;text-align:center;font-size:12px;color:var(--faint)}
+@media(max-width:720px){.monto,.meta,.split{grid-template-columns:1fr}}
+@media print{.tabs,.btn{display:none!important}body{background:#fff}.wrap{padding:0}}
+</style></head>
+<body>
+<button class="btn" onclick="window.print()">Pasar a PDF</button>
+<div class="wrap">
+<nav class="tabs"><a href="#resumen">Resumen</a><a href="#historia">Historia</a><a href="#comunicaciones">Comunicaciones</a><a href="#marco">Marco legal</a><a href="#escrito">Escrito</a><a href="#cotiza">Cotiza</a></nav>
+<p class="tag">C-1 · Seguro de garantía · JPL Viña del Mar</p>
+<section class="card" id="resumen"><h1>Seguro de garantía</h1>
+<div class="resumen"><ol>
+<li>Santander debitó en la cuenta de A.G. S.A. la glosa «Pago Seguro de Garantía» sin póliza ni mandato.</li>
+<li>Se pide restituir <b>$3.174.352</b>.</li>
+<li>Último hecho: 04-10-2024, dos cargos de $113.743.</li>
+<li>Plazo art. 26 Ley 19.496: hasta el <b>04-10-2026</b>.</li>
+<li>Querella 18-08-2025. Santander 97.036.000-K, Trautmann Buc.</li>
+</ol></div>
+<div class="monto"><div class="box dark"><div class="lbl">Se pide</div><div class="num">$3.174.352</div></div><div class="box light"><div class="lbl">Plazo art. 26</div><div class="num" style="font-size:22px">04-10-2026</div></div></div>
+<div class="meta"><div><b>Querellante</b>A.G. S.A. · 77.203.320-6</div><div><b>Querellado</b>Santander · 97.036.000-K · Trautmann Buc</div></div>
+</section>
+<section class="card" id="historia"><h2>Historia</h2>
+<p>Cargos 2022–2024 glosa «Pago Seguro de Garantía». Sin póliza ni mandato. Pretensión $3.174.352.</p>
+<p><a href="#prueba-reversa">20-03-2024</a> cargo $4.223.618 y reversa. No se pide.</p>
+<p><a href="#prueba-cmf">Mayo 2024</a> CMF 2451204. Carta banco 65331.</p>
+<p><a href="#prueba-doble">04-10-2024</a> dos cargos $113.743. <a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">Art. 26 Ley 19.496</a>.</p>
+<p>18-08-2025 querella Trautmann Buc.</p>
+<div class="aviso">No mezclar con C-4 (598948 · 471,88 UF).</div>
+</section>
+<section class="card" id="comunicaciones"><h2>Comunicaciones · escritos · pruebas</h2>
+<div class="split"><div class="col"><h3>Piezas</h3>
+<div class="item" id="prueba-cartolas"><span class="k">Cartolas</span>244 · 253 · 265 · 277. $3.174.352.</div>
+<div class="item" id="prueba-cmf"><span class="k">CMF</span>2451204.</div>
+<div class="item" id="prueba-carta"><span class="k">Carta banco</span>65331.</div>
+<div class="item" id="prueba-reversa"><span class="k">20-03-2024</span>Reversa. No se pide.</div>
+<div class="item" id="prueba-doble"><span class="k">04-10-2024</span>Dos cargos $113.743.</div>
+<div class="item" id="prueba-poliza"><span class="k">Cotejo</span>Póliza 07570481 vs certificado.</div>
+</div>
+<div class="col flags"><h3>Red flags</h3>
+<div class="item"><span class="k">Sin título</span>Sin póliza ni mandato.</div>
+<div class="item"><span class="k">Por escrito</span>CMF + carta 65331.</div>
+<div class="item"><span class="k">Plazo</span>04-10-2024 → 04-10-2026.</div>
+<div class="item"><span class="k">No calzan</span>Póliza y certificado.</div>
+</div></div></section>
+<section class="card" id="marco"><h2>Marco legal apoyado</h2>
+<table><tr><th>Norma</th><th>Uso</th></tr>
+<tr><td><a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">19.496 art. 17 B</a></td><td>Información. Cobro sin póliza.</td></tr>
+<tr><td><a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">19.496 art. 50</a></td><td>Restitución.</td></tr>
+<tr><td><a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">19.496 art. 26</a></td><td>Prescripción hasta 04-10-2026.</td></tr>
+</table>
+<div class="ok">No se afirma fraude. Cobro sin título.</div></section>
+<section class="escrito" id="escrito"><h2>Propuesta de escrito</h2>
+<ol><li>Declarar indebidos los cargos «Pago Seguro de Garantía».</li><li>Devolver $3.174.352 con reajuste e interés.</li><li>Oficiar póliza y mandato.</li></ol></section>
+<section class="card" id="cotiza"><h2>Cotiza</h2>
+<table><tr><th>Ítem</th><th>Estado</th></tr><tr><td>Carpeta C-1</td><td>Esta página</td></tr><tr><td>Escrito base</td><td>Listo</td></tr><tr><td>Honorarios</td><td>Por cotizar</td></tr></table></section>
+<footer>C-1 · A.G. S.A. c/ Santander · JPL Viña</footer></div></body></html>
