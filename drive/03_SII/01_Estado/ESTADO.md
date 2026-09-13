@@ -1,12 +1,16 @@
-# Estado · 03_SII · 2026-09-08
+# Estado · 03_SII · espejo 2026-09-13
 
-Copia de Drive (espejo). El oficio del canal dice: 52 no canónica. Este archivo en Drive afirma base A adoptada 52. El espejo no resuelve el desfase.
+VACÍO de adopción.
 
-## Lo que dice el archivo de Drive
+Drive tiene `ESTADO.md` (file_id 16qcA3GMj1rTXObRa8EOgULU8IoAqI7XR, 2026-09-08).
+El oficio del canal y el pedido del tubo prohíben adoptar cifras SII.
+El espejo no copia totales ni bases. No resuelve el desfase.
 
-- Base A en el cajón: 52 (Drive). Oficio: no canónica.
-- 51 descartada.
-- JACK no cruza SII. Especialista contra el sitio.
+## Lo que sí consta sin adoptar
+- Cajón `03_SII/01_Estado` no está vacío: existe ESTADO.md + versiones fechadas.
+- 51: descartada (oficio).
+- 52: no canónica (oficio).
+- JACK no cruza SII. Especialista contra el sitio. Solo 100% verificable.
 - HOLD ingreso DA-SII hasta frase del operador.
 
 Fuente Drive: file_id 16qcA3GMj1rTXObRa8EOgULU8IoAqI7XR
