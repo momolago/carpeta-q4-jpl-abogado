@@ -3,27 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>C-1 · Seguro de Garantía · carpeta para abogado</title>
+<title>Carpeta JPL · A.G. S.A. c/ Banco Santander</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600;700&display=swap');
-:root{--ink:#161310;--ink2:#3b302a;--muted:#6d5f56;--faint:#9c8d82;--cream:#F4EFE6;--paper:#FBF7F0;--line:#E4D9C9;--wine:#6E2B28;--wine2:#8f4021;--olive:#2C3F36;--olivebg:#eef3e4;--rojo:#9b1c1c;--rojobg:#fde8e8;--rojoline:#e07a7a;--amber:#fdf3dc;--azul:#2c4a6e}
+:root{--ink:#161310;--ink2:#3b302a;--muted:#6d5f56;--faint:#9c8d82;--cream:#F4EFE6;--paper:#FBF7F0;--line:#E4D9C9;--wine:#6E2B28;--wine2:#8f4021;--olive:#2C3F36;--olivebg:#eef3e4;--rojo:#9b1c1c;--rojobg:#fde8e8;--amber:#fdf3dc;--azul:#2c4a6e}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;background:var(--cream);color:var(--ink2);font-family:Inter,system-ui,sans-serif;font-size:15.5px;line-height:1.62}
 h1,h2,h3{font-family:Fraunces,Georgia,serif;color:var(--ink);font-weight:650;margin:0}
 a{color:var(--azul)}a.ley{color:var(--wine2);font-weight:650;border-bottom:1px dashed #dfae91;text-decoration:none}
-.wrap{max-width:880px;margin:0 auto;padding:22px 18px 96px}
+.wrap{max-width:920px;margin:0 auto;padding:22px 18px 96px}
 .tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 18px;position:sticky;top:0;z-index:20;background:var(--cream);padding:10px 0}
 .tabs a{font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--muted);text-decoration:none;border:1px solid var(--line);background:#fff;padding:7px 11px;border-radius:999px}
 .tag{display:inline-block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--muted);border:1px solid var(--line);background:#f1ece5;border-radius:999px;padding:4px 12px;margin-bottom:12px}
 .card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:26px;margin:0 0 16px}
-.card h1{font-size:clamp(28px,5vw,40px);line-height:1.12;margin:4px 0 16px}
+.card h1{font-size:clamp(26px,5vw,38px);line-height:1.12;margin:4px 0 16px}
 .card h2{font-size:22px;margin:0 0 14px}
 .resumen{border:2px solid var(--ink);border-radius:16px;padding:18px 20px;background:#fff}
 .resumen ol{margin:0;padding-left:22px}.resumen li{margin:0 0 8px}
 .monto{display:grid;grid-template-columns:1.2fr 1fr;gap:12px;margin:18px 0 0}
 .box{border-radius:14px;padding:16px 18px}.box.dark{background:var(--ink);color:#FBF7F0}.box.light{background:#fff;border:1px solid var(--line)}
 .box .lbl{font-size:10px;letter-spacing:.12em;text-transform:uppercase;opacity:.7;margin-bottom:4px}
-.box .num{font-family:Fraunces,Georgia,serif;font-size:28px;font-weight:650}
+.box .num{font-family:Fraunces,Georgia,serif;font-size:26px;font-weight:650}
 .meta{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line);font-size:14px}
 .meta b{display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:3px}
 .split{display:grid;grid-template-columns:1.15fr .85fr;gap:14px}
@@ -38,17 +38,50 @@ table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;p
 .ok{border-left:4px solid var(--olive);background:var(--olivebg);padding:12px 14px;margin-top:14px;border-radius:0 10px 10px 0}
 .btn{position:fixed;bottom:20px;right:20px;background:var(--wine);color:#fff;border:0;border-radius:999px;padding:13px 20px;font-weight:700;cursor:pointer;z-index:40}
 footer{margin-top:28px;text-align:center;font-size:12px;color:var(--faint)}
-@media(max-width:720px){.monto,.meta,.split{grid-template-columns:1fr}}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.case{border:1px solid var(--line);border-radius:14px;padding:16px;background:#fff}
+.case h3{font-size:16px;margin:0 0 6px}
+.case .m{font-family:Fraunces,serif;font-size:20px;color:var(--wine);margin:6px 0}
+.case .s{font-size:12px;color:var(--muted)}
+.case a.btn2{display:inline-block;margin-top:10px;background:var(--ink);color:#fff;text-decoration:none;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700}
+@media(max-width:720px){.monto,.meta,.split,.grid2{grid-template-columns:1fr}}
 @media print{.tabs,.btn{display:none!important}body{background:#fff}.wrap{padding:0}}
-</style></head>
+</style>
+</head>
 <body>
 <button class="btn" onclick="window.print()">Pasar a PDF</button>
 <div class="wrap">
-<nav class="tabs"><a href="#resumen">Resumen</a><a href="#historia">Historia</a><a href="#comunicaciones">Comunicaciones</a><a href="#marco">Marco legal</a><a href="#escrito">Escrito</a><a href="#cotiza">Cotiza</a></nav>
-<p class="tag">C-1 · Seguro de garantía · JPL Viña del Mar</p>
-<section class="card" id="resumen"><h1>Seguro de garantía</h1>
+<nav class="tabs">
+<a href="#inicio">Inicio</a>
+<a href="#c1">C-1</a>
+<a href="#c2">C-2</a>
+<a href="#c4">C-4</a>
+<a href="#c5">C-5</a>
+<a href="#indice">Índice</a>
+</nav>
+
+<section class="card" id="inicio">
+<p class="tag">A.G. S.A. c/ Banco Santander-Chile · 1er JPL Viña del Mar</p>
+<h1>Carpeta para el abogado</h1>
 <div class="resumen"><ol>
-<li>Santander debitó en la cuenta de A.G. S.A. la glosa «Pago Seguro de Garantía» sin póliza ni mandato.</li>
+<li>Banco Santander, RUT 97.036.000-K, representante Andrés Trautmann Buc.</li>
+<li>Querellante: A.G. S.A., RUT 77.203.320-6, comparece Giacomo Lagomarsino Soto, C.I. 13.191.349-4.</li>
+<li>Cuatro causas: C-1 seguro de garantía, C-2 impuestos territoriales, C-4 seguro leaseback, C-5 alzamiento hipoteca.</li>
+<li>Cada botón abre la carpeta completa de esa causa.</li>
+</ol></div>
+<div class="grid2" style="margin-top:18px">
+<div class="case"><h3>C-1 · Seguro de garantía</h3><div class="m">$3.174.352</div><div class="s">Cargos «Pago Seguro de Garantía» sin póliza. Plazo art. 26 hasta 04-10-2026.</div><a class="btn2" href="https://carpeta-q4-abogado.vercel.app/">Abrir C-1</a></div>
+<div class="case"><h3>C-2 · Impuestos territoriales</h3><div class="m">$29.649.564</div><div class="s">Leaseback 570450 terminado 13-12-2022. No alzamiento. Rol 014532-2025 fs.12.</div><a class="btn2" href="https://drive.google.com/file/d/1PDXxqWlpsPKYJTTVYL2e2P4ORE_Y48vO/view?usp=drivesdk" target="_blank" rel="noopener">Abrir C-2</a></div>
+<div class="case"><h3>C-4 · Seguro leaseback 598948</h3><div class="m">471,88 UF</div><div class="s">Cobros unilaterales y falta de hoja resumen.</div><a class="btn2" href="https://drive.google.com/drive/folders/1qIW82YoGRcJewoNZ66AD_-bIdQoZxX2R" target="_blank" rel="noopener">Abrir C-4</a></div>
+<div class="case"><h3>C-5 · Alzamiento hipoteca</h3><div class="m">$80.000.000</div><div class="s">Depto 202 Seis Norte. Mora 920+ días. Ley 20.855.</div><a class="btn2" href="https://drive.google.com/file/d/1EPRa4nflAYyoIGLwNb9CaGN7EdEnaoLO/view" target="_blank" rel="noopener">Abrir C-5</a></div>
+</div>
+<div class="aviso">No mezclar C-1 con C-4. C-2 es el caso de impuestos territoriales del leaseback 570450.</div>
+</section>
+
+<section class="card" id="c1">
+<h2>C-1 · Seguro de garantía</h2>
+<div class="resumen"><ol>
+<li>Santander debitó «Pago Seguro de Garantía» sin póliza ni mandato.</li>
 <li>Se pide restituir <b>$3.174.352</b>.</li>
 <li>Último hecho: 04-10-2024, dos cargos de $113.743.</li>
 <li>Plazo art. 26 Ley 19.496: hasta el <b>04-10-2026</b>.</li>
@@ -56,39 +89,76 @@ footer{margin-top:28px;text-align:center;font-size:12px;color:var(--faint)}
 </ol></div>
 <div class="monto"><div class="box dark"><div class="lbl">Se pide</div><div class="num">$3.174.352</div></div><div class="box light"><div class="lbl">Plazo art. 26</div><div class="num" style="font-size:22px">04-10-2026</div></div></div>
 <div class="meta"><div><b>Querellante</b>A.G. S.A. · 77.203.320-6</div><div><b>Querellado</b>Santander · 97.036.000-K · Trautmann Buc</div></div>
-</section>
-<section class="card" id="historia"><h2>Historia</h2>
-<p>Cargos 2022–2024 glosa «Pago Seguro de Garantía». Sin póliza ni mandato. Pretensión $3.174.352.</p>
-<p><a href="#prueba-reversa">20-03-2024</a> cargo $4.223.618 y reversa. No se pide.</p>
-<p><a href="#prueba-cmf">Mayo 2024</a> CMF 2451204. Carta banco 65331.</p>
-<p><a href="#prueba-doble">04-10-2024</a> dos cargos $113.743. <a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">Art. 26 Ley 19.496</a>.</p>
-<p>18-08-2025 querella Trautmann Buc.</p>
-<div class="aviso">No mezclar con C-4 (598948 · 471,88 UF).</div>
-</section>
-<section class="card" id="comunicaciones"><h2>Comunicaciones · escritos · pruebas</h2>
-<div class="split"><div class="col"><h3>Piezas</h3>
-<div class="item" id="prueba-cartolas"><span class="k">Cartolas</span>244 · 253 · 265 · 277. $3.174.352.</div>
-<div class="item" id="prueba-cmf"><span class="k">CMF</span>2451204.</div>
-<div class="item" id="prueba-carta"><span class="k">Carta banco</span>65331.</div>
-<div class="item" id="prueba-reversa"><span class="k">20-03-2024</span>Reversa. No se pide.</div>
-<div class="item" id="prueba-doble"><span class="k">04-10-2024</span>Dos cargos $113.743.</div>
-<div class="item" id="prueba-poliza"><span class="k">Cotejo</span>Póliza 07570481 vs certificado.</div>
-</div>
-<div class="col flags"><h3>Red flags</h3>
+<div class="split" style="margin-top:18px"><div class="col"><h3>Piezas</h3>
+<div class="item"><span class="k">Cartolas</span>244 · 253 · 265 · 277. $3.174.352.</div>
+<div class="item"><span class="k">CMF</span>2451204.</div>
+<div class="item"><span class="k">Carta banco</span>65331.</div>
+<div class="item"><span class="k">20-03-2024</span>Reversa. No se pide.</div>
+<div class="item"><span class="k">04-10-2024</span>Dos cargos $113.743.</div>
+<div class="item"><span class="k">Cotejo</span>Póliza 07570481 vs certificado.</div>
+</div><div class="col flags"><h3>Red flags</h3>
 <div class="item"><span class="k">Sin título</span>Sin póliza ni mandato.</div>
 <div class="item"><span class="k">Por escrito</span>CMF + carta 65331.</div>
 <div class="item"><span class="k">Plazo</span>04-10-2024 → 04-10-2026.</div>
 <div class="item"><span class="k">No calzan</span>Póliza y certificado.</div>
-</div></div></section>
-<section class="card" id="marco"><h2>Marco legal apoyado</h2>
-<table><tr><th>Norma</th><th>Uso</th></tr>
+</div></div>
+<table style="margin-top:18px"><tr><th>Norma</th><th>Uso</th></tr>
 <tr><td><a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">19.496 art. 17 B</a></td><td>Información. Cobro sin póliza.</td></tr>
 <tr><td><a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">19.496 art. 50</a></td><td>Restitución.</td></tr>
 <tr><td><a class="ley" href="https://www.bcn.cl/leychile/navegar?idNorma=61438" target="_blank" rel="noopener">19.496 art. 26</a></td><td>Prescripción hasta 04-10-2026.</td></tr>
 </table>
-<div class="ok">No se afirma fraude. Cobro sin título.</div></section>
-<section class="escrito" id="escrito"><h2>Propuesta de escrito</h2>
-<ol><li>Declarar indebidos los cargos «Pago Seguro de Garantía».</li><li>Devolver $3.174.352 con reajuste e interés.</li><li>Oficiar póliza y mandato.</li></ol></section>
-<section class="card" id="cotiza"><h2>Cotiza</h2>
-<table><tr><th>Ítem</th><th>Estado</th></tr><tr><td>Carpeta C-1</td><td>Esta página</td></tr><tr><td>Escrito base</td><td>Listo</td></tr><tr><td>Honorarios</td><td>Por cotizar</td></tr></table></section>
-<footer>C-1 · A.G. S.A. c/ Santander · JPL Viña</footer></div></body></html>
+<div class="ok">No se afirma fraude. Cobro sin título.</div>
+</section>
+
+<section class="card" id="c2">
+<h2>C-2 · Impuestos territoriales</h2>
+<div class="resumen"><ol>
+<li>El 13-12-2022 A.G. cumplió el leaseback 570450 (terminado) e inició el 598948 (vigente).</li>
+<li>El banco no transfirió el dominio ni alzó las garantías. Plazo febrero 2023.</li>
+<li>Se indujo el pago de <b>$9.649.564</b> por impuestos territoriales de una operación ya concluida.</li>
+<li>Daño emergente $9.649.564 · Daño moral $20.000.000 · Total $29.649.564.</li>
+<li>Rol 014532-2025 fs.12, tenido por no presentado el 22-09-2025.</li>
+</ol></div>
+<div class="monto"><div class="box dark"><div class="lbl">Total</div><div class="num">$29.649.564</div></div><div class="box light"><div class="lbl">Rol</div><div class="num" style="font-size:20px">014532-2025 fs.12</div></div></div>
+<div class="meta"><div><b>Querellante</b>A.G. S.A. · 77.203.320-6</div><div><b>Querellado</b>Santander · 97.036.000-K · Trautmann Buc</div></div>
+<div class="aviso">Alerta de forma: el escrito pide $20.000.000 y entre paréntesis «cien millones de pesos». No se corrige el escrito.</div>
+<p style="margin-top:18px"><a class="btn2" href="https://drive.google.com/file/d/1PDXxqWlpsPKYJTTVYL2e2P4ORE_Y48vO/view?usp=drivesdk" target="_blank" rel="noopener">Abrir carpeta C-2 completa</a></p>
+</section>
+
+<section class="card" id="c4">
+<h2>C-4 · Seguro leaseback 598948</h2>
+<div class="resumen"><ol>
+<li>Cobros unilaterales 471,88 UF: seguro 404,18 + gastos legales 12 + otros 55,70.</li>
+<li>Falta de hoja resumen y de póliza.</li>
+<li>Daño emergente 471,88 UF · Daño moral $5.000.000.</li>
+</ol></div>
+<div class="monto"><div class="box dark"><div class="lbl">Daño emergente</div><div class="num">471,88 UF</div></div><div class="box light"><div class="lbl">Daño moral</div><div class="num" style="font-size:22px">$5.000.000</div></div></div>
+<p style="margin-top:18px"><a class="btn2" href="https://drive.google.com/drive/folders/1qIW82YoGRcJewoNZ66AD_-bIdQoZxX2R" target="_blank" rel="noopener">Abrir carpeta C-4</a></p>
+</section>
+
+<section class="card" id="c5">
+<h2>C-5 · Alzamiento hipoteca</h2>
+<div class="resumen"><ol>
+<li>Depto 202, Seis Norte N° 25. Créditos 420019861006 y 420020646275 pagados el 02-03-2023.</li>
+<li>Hipoteca no alzada. Plazo legal 45 días vencido el 16-04-2023. Mora 920+ días.</li>
+<li>Daño emergente $15.000.000 · Lucro cesante $25.000.000 · Daño moral $40.000.000 · Total $80.000.000.</li>
+</ol></div>
+<div class="monto"><div class="box dark"><div class="lbl">Total</div><div class="num">$80.000.000</div></div><div class="box light"><div class="lbl">Ley</div><div class="num" style="font-size:20px">20.855</div></div></div>
+<p style="margin-top:18px"><a class="btn2" href="https://drive.google.com/file/d/1EPRa4nflAYyoIGLwNb9CaGN7EdEnaoLO/view" target="_blank" rel="noopener">Abrir carpeta C-5</a></p>
+</section>
+
+<section class="card" id="indice">
+<h2>Índice para el abogado</h2>
+<table><tr><th>Causa</th><th>Materia</th><th>Monto</th><th>Estado</th></tr>
+<tr><td>C-1</td><td>Seguro de garantía</td><td>$3.174.352</td><td>Querella 18-08-2025</td></tr>
+<tr><td>C-2</td><td>Impuestos territoriales 570450</td><td>$29.649.564</td><td>No presentado fs.12</td></tr>
+<tr><td>C-4</td><td>Seguro leaseback 598948</td><td>471,88 UF</td><td>Querella</td></tr>
+<tr><td>C-5</td><td>Alzamiento hipoteca</td><td>$80.000.000</td><td>Querella 09-09-2025</td></tr>
+</table>
+<div class="ok">Banco 97.036.000-K · Trautmann vigente desde 01-07-2025. No inventar cifras.</div>
+</section>
+
+<footer>Carpeta JPL · A.G. S.A. c/ Santander · 1er JPL Viña del Mar · Actualizado 15-09-2026</footer>
+</div>
+</body>
+</html>
