@@ -1,4 +1,4 @@
-# Estado · 03_SII · espejo 2026-09-13
+# Estado · 03_SII · espejo 2026-09-20
 
 VACÍO de adopción.
 
