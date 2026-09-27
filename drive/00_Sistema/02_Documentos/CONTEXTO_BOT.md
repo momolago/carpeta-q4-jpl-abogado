@@ -24,15 +24,18 @@ Estructura:
 2. El especialista cruza **contra el sitio del SII**.
 3. Solo entra lo **100% verificable**: RUT + fecha + monto coinciden.
 4. Lo que no cuadre = **pendiente, aparte**. No se mezcla con lo verificable.
-5. Nada se adopta ni se presenta ni se cruza con Santander hasta que Giacomo diga **OK**.
-6. Cifras: ninguna adoptada. 51 descartada. 52 por verificar. Hasta OK, solo maestro.
+5. Presentación / ingreso / cruce con Santander: solo con **OK** / «dale» de Giacomo vía JACK.
+6. Grill A/B/OTRA: Cara A = CtaCte sin DTE · Cara B = DTE sin flujo · OTRA no se mete como A/B limpio.
 
-## Cifras SII (HOLD duro)
-- **Ninguna cifra SII adoptada** hasta confirmación expresa de Giacomo.
+## Cifras SII (canon 8-sep · Giacomo vía JACK)
+- **Base A ADOPTADA: 52 · $6.018.730** (única base cerrada multa Art. 97 N°10).
+- TN 26 · $1.273.605 · AG 26 · $4.745.125 (incl. Seg. Fraude $7.954).
 - **51 ops: descartada.**
-- **52 ops: por verificar** (no usar como canónica).
-- Mientras tanto: se mantiene solo lo que diga el maestro (`Contexto-Maestro` / Estado en `03_SII`) sin adoptar totales de packs intermedios.
-- No inventar montos ni conteos. Si hay duda → VACÍO / por verificar / pendiente aparte.
+- **Lo que ENTRA suma** a P1 (rotulado); no suma a base cerrada lo que no entra.
+- Techos B/C aparte; **no doblar** 78+4.
+- Grill expuesto Giacomo: **$1.661.972.480** (referencia grill; no confundir con base A).
+- Prioridad caza: **1×1 de las 52 Cara A** + **PDF 4 DTE Cara B**.
+- No inventar montos ni conteos. Si falta → VACÍO / pendiente aparte.
 
 ## Reglas de operación (bots)
 1. Leer primero este archivo + `REGISTRO_HISTORICO.md` + `01_Estado` del frente.
@@ -46,7 +49,7 @@ Estructura:
 9. No inventar cifras ni piezas. Si falta, marcar VACÍO.
 10. Workspace local (`/workspace/...`) es copia de trabajo; la fuente de verdad compartida es `00_CENTRO`.
 11. Drive manda · GitHub espejo · sync solo con «sincroniza» · nunca editar GitHub directo.
-12. Cruce SII: solo especialista · sitio SII · 100% verificable · pendientes aparte · cero adopción/presentación/cruce Santander sin OK.
+12. Cruce SII: solo especialista · sitio SII · 100% verificable · pendientes aparte · cero ingreso/presentación/cruce Santander sin dale.
 
 ## Mapa rápido de frentes → carpeta
 | Frente | Carpeta Drive |
@@ -58,4 +61,5 @@ Estructura:
 
 ## Archivos hermanos
 - `REGISTRO_HISTORICO.md` — bitácora; no borrar entradas
-- `Contexto-Maestro-Grok.md` (legado) — no borrar; preferir Estado de cada frente; cifras SII no adoptadas hasta OK Giacomo
+- `Contexto-Maestro-Grok.md` (legado) — no borrar; preferir Estado de cada frente
+- Versión previa archivada (no borrada): `CONTEXTO_BOT-2026-09-08c.md`
